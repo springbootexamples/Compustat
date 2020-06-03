@@ -7,7 +7,6 @@ Core
 Primary ID's Used:
 gvkey
 iid
---pk_sec_dtrt
 
 Database_Type:
 MSSQL
