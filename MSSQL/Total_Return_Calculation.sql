@@ -1,5 +1,6 @@
 /************************************************************************************************
-The following sample query below retrieves Total return calculation for company INTL BUSINESS MACHINES CORP (006066).
+The following sample query below retrieves Total return calculation for company INTL BUSINESS 
+MACHINES CORP (006066).
 
 Packages Required:
 Core
@@ -20,7 +21,8 @@ Query_Added_Date:
 DatasetKey:
 10
 
-The following sample query below retrieves Total return calculation for company INTL BUSINESS MACHINES CORP (006066).
+The following sample query below retrieves Total return calculation for company INTL BUSINESS 
+MACHINES CORP (006066).
 
 ***********************************************************************************************/
 
