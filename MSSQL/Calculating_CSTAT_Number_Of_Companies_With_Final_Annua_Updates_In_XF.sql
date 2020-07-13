@@ -32,7 +32,7 @@ companies as of 5/21/08:
 
 ***********************************************************************************************/
 
-SELECT COUNT  ( DISTINCT ( co_adesind.gvkey ) )
+SELECT COUNT Â ( DISTINCT ( co_adesind.gvkey ) )
 
 FROM co_adesind 
 
