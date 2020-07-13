@@ -2,7 +2,7 @@
 Calculating Dividend Yeild.
 
 Packages Required:
-Compustat
+Core
 
 Universal Identifiers:
 GVKEY

@@ -1,7 +1,8 @@
 /************************************************************************************************
 Calculating Number Of Companies with Final Annual Updates.
+
 Packages Required:
-Compustat
+Core
 
 Universal Identifiers:
 GVKEY

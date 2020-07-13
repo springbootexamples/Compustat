@@ -2,7 +2,7 @@
 Calculating Pension Plan Assets.
 
 Packages Required:
-Compustat
+Core
 
 Universal Identifiers:
 GVKEY

@@ -2,7 +2,7 @@
 Calculating Number Of Companies With A value Of Market Data Item On A Specific Date
 
 Packages Required:
-Compustat
+Core
 
 Universal Identifiers:
 GVKEY

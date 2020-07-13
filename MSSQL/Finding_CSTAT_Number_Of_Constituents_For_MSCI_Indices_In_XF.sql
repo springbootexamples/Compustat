@@ -2,7 +2,7 @@
 Finding Number of Constituents For MSCI indices.
 
 Packages Required:
-MSCI DM Core Constituent Daily(Legacy)
+MSCI DM Core Index
 
 Universal Identifiers:
 GVKEY
