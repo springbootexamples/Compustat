@@ -4,8 +4,13 @@ MACHINES CORP (006066).
 
 Packages Required:
 Core
+Core 2
 
-Primary ID's Used:
+Universal Identifiers:
+GVKEY
+
+Primary Columns Used:
+datadate
 gvkey
 iid
 
@@ -19,7 +24,7 @@ Query_Added_Date:
 25\05\2020
 
 DatasetKey:
-10
+8
 
 The following sample query below retrieves Total return calculation for company INTL BUSINESS 
 MACHINES CORP (006066).
