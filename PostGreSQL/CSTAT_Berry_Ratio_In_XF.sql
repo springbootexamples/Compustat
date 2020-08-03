@@ -19,7 +19,7 @@ indfmt
 popsrc
 
 Database_Type:
-MSSQL
+POSTGRESQL
 
 Query_Version:
 V1
@@ -42,7 +42,7 @@ SELECT a.gvkey
 
 , b.datadate
 
-,CONVERT(DECIMAL(10,3),(c.sale-b.cogs)/NULLIF(c.xsga,0)) AS Berry_annual
+, ((c.sale-b.cogs)/COALESCE(c.xsga,0)) AS Berry_annual
 
 FROM company a 
 
@@ -64,7 +64,7 @@ WHERE a.gvkey IN ('001078'
 
 ,'002285','003851','004503','005047','007257','012141','009203','008007')
 
-AND b.datafmt = 'std'
+AND b.datafmt = 'STD'
 
 AND b.datadate = '2017-12-31'
 
