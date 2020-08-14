@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling One Year Price History For An Index.
+/***********************************************************************************************
+Returns One Year Price History For An Index
 
 Packages Required:
 Core
@@ -17,13 +17,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the one-year price history for the SP 500 Index from June 3, 
-2003 through June 2, 2004.
+This query returns the one-year price history for the SP 500 Index from June 3,  2003 through June 2, 2004
 
 ***********************************************************************************************/
 
