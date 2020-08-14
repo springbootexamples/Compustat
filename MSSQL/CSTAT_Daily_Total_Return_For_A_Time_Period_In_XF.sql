@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Daily Total Return for A Time Period.
+/***********************************************************************************************
+Returns Daily Total Return For A Time Period
 
 Packages Required:
 Core
@@ -21,13 +21,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the Daily Total Return of one issue for a one-year time period using the 1-year 
-return for SP Global, Inc. from November 1, 2017 to November 1, 2018 in this example.
+This query returns the Daily Total Return of one issue for a one-year time period using the 1-year  return for SP Global, Inc. from November 1, 2017 to November 1, 2018 in this example
 
 ***********************************************************************************************/
 
