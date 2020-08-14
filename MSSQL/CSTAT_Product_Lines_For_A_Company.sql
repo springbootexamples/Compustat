@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding CSTAT Product Lines For A company.
+/***********************************************************************************************
+Returns Compustat Product Lines For A Company
 
 Packages Required:
 Core
@@ -18,12 +18,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns all reported product lines for Georgia Pacific as of December 31, 2002.
+This query returns all reported product lines for Georgia Pacific as of December 31, 2002
 
 ***********************************************************************************************/
 
