@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling MSCI Index Returns(Daily)
+/***********************************************************************************************
+Returns MSCI Index Returns(Daily)
 
 Packages Required:
 MSCI DM Core Constituent Daily (Legacy)
@@ -22,14 +22,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-These queries pull returns for MSCI indices, broken out by daily vs. monthly frequency and local currency vs. U.S. Dollars (USD).
-This query returns daily data in the local currency.
-Note: Uncomment the second query to return returns daily data in U.S. Dollars (USD).
+These queries pull returns for MSCI indices, broken out by daily vs. monthly frequency and local currency vs. U.S. Dollars (USD). This query returns daily data in the local currency. Note: Uncomment the second query to return returns daily data in U.S. Dollars (USD)
 
 ***********************************************************************************************/
 
