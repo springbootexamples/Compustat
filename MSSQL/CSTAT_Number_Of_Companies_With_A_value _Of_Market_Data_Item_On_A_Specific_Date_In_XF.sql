@@ -1,5 +1,5 @@
-/************************************************************************************************
-Calculating Number Of Companies With A value Of Market Data Item On A Specific Date
+/***********************************************************************************************
+Returns Number Of Companies With A Value Of Market Data Item On A Specific Date
 
 Packages Required:
 Core
@@ -17,13 +17,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query  returns the number of companies on the NYSE that have a value for 
-Trading Volume - Monthly (CSHTRM) value on January 31, 2011
+This query  returns the number of companies on the NYSE that have a value for  Trading Volume - Monthly (CSHTRM) value on January 31, 2011
 
 ***********************************************************************************************/
 
