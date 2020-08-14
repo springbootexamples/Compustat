@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Daily Translation Rates.
+/***********************************************************************************************
+Returns Daily Translation Rates
 
 Packages Required:
 Core
@@ -19,13 +19,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the daily exchange rate to translate Hong Kong Dollars (HKD) to U.S. 
-Dollars (USD) since inception.
+This query returns the daily exchange rate to translate Hong Kong Dollars (HKD) to U.S.  Dollars (USD) since inception
 
 ***********************************************************************************************/
 
