@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling Long Term Debt To Common Equity.
+/***********************************************************************************************
+Returns Long Term Debt To Common Equity
 
 Packages Required:
 Core
@@ -23,14 +23,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the Long-Term Debt to Common Equity ratio for companies on a specific datadate 
-using the Compustat packages in Xpressfeed.
-Note: This query replicates the Long-Term Debt/Common Equity (DCE) concept in Research Insight.
+This query returns the Long-Term Debt to Common Equity ratio for companies on a specific datadate  using the Compustat packages in Xpressfeed. Note: This query replicates the Long-Term Debt/Common Equity (DCE) concept in Research Insight
 
 ***********************************************************************************************/
 
