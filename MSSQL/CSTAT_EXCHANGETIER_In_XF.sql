@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling EXCHANGETIER In XF
+/***********************************************************************************************
+Returns EXCHANGETIER
 
 Packages Required:
 Xpressfeed Reference
@@ -19,14 +19,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query pulls a list of all of the EXCHGTIER codes and descriptions for each Stock Exchange (EXCHGCD).
-Note: Uncomment the second query to return all of the companies in the sec_history table that 
-have Stock Exchange Tier (EXCHGTIER) data available.
+This query pulls a list of all of the EXCHGTIER codes and descriptions for each Stock Exchange (EXCHGCD). Note: Uncomment the second query to return all of the companies in the sec_history table that  have Stock Exchange Tier (EXCHGTIER) data available
 
 ***********************************************************************************************/
 
