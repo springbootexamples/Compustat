@@ -1,5 +1,5 @@
-﻿/************************************************************************************************
-Finding Pro Forma Records In XF.
+/***********************************************************************************************
+Returns Pro Forma Records
 
 Packages Required:
 Core
@@ -18,19 +18,19 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query finds pro-forma companies using the Compustat database in Xpressfeed.
+This query finds pro-forma companies using the Compustat database in Xpressfeed
 
 ***********************************************************************************************/
 
 SELECT a.gvkey
-, a.datadate 
-, a.consol 
-, a.indfmt 
+, a.datadate 
+, a.consol 
+, a.indfmt 
 , b.conm
 
 FROM co_adesind a
