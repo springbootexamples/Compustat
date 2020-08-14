@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Annual Fair Value Asst Items.
+/***********************************************************************************************
+Returns Annual Fair Value Asset Items
 
 Packages Required:
 Core
@@ -24,13 +24,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns annual Fair Value Asset Items related to SFAS 157 and Fair Value Changes 
-in Earnings related to SFAS 159.
+This query returns annual Fair Value Asset Items related to SFAS 157 and Fair Value Changes  in Earnings related to SFAS 159
 
 ***********************************************************************************************/
 
@@ -98,7 +97,7 @@ WHERE ad.indfmt = 'INDL'
 
 AND ad.datafmt = 'STD' 
 
-   AND c.gvkey in ( 007267 ) 
+xa0  AND c.gvkey in ( 007267 ) 
 
 
 ORDER BY af1.datadate DESC, af1.gvkey
