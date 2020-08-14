@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling CFLPS In XF.
+/***********************************************************************************************
+Returns CFLPS
 
 Packages Required:
 Core
@@ -25,13 +25,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns Cash Flow per Share for companies using the Compustat packages in Xpressfeed.
-Note: This query replicates the Cash Flow per Share (CFLPS) concept in Research Insight.
+This query returns Cash Flow per Share for companies using the Compustat packages in Xpressfeed. Note: This query replicates the Cash Flow per Share (CFLPS) concept in Research Insight
 
 ***********************************************************************************************/
 
@@ -71,7 +70,7 @@ AND a.consol = c.consol
 
 AND a.datafmt = c.datafmt
 
-WHERE a.gvkey IN ('006066','005047','134450')
+WHERE a.gvkey INxa0('006066','005047','134450')
 
 AND a.datadate = '12/31/2017'
 
