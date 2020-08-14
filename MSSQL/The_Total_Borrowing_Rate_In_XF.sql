@@ -1,5 +1,5 @@
-/************************************************************************************************
-Calculating Total Borrowing Rate.
+/***********************************************************************************************
+Returns Total Borrowing Rate
 
 Packages Required:
 Core
@@ -23,13 +23,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the Borrowing Rate by dividing Interest Expense by 
-Total Debt multiplied by 100 to return a percentage for IBM for the fiscal-year ending 12/31/2008.
+This query returns the Borrowing Rate by dividing Interest Expense by  Total Debt multiplied by 100 to return a percentage for IBM for the fiscal-year ending 12/31/2008
 
 ***********************************************************************************************/
 
