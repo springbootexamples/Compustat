@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Pre-FASB Companies.
+/***********************************************************************************************
+Returns Pre-FASB Companies
 
 Packages Required:
 Core
@@ -18,13 +18,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the Company Name (CONM), Global Company Key (GVKEY), and Security 
-Description (DSCI) for pre-FASB companies in Xpressfeed.
+This query returns the Company Name (CONM), Global Company Key (GVKEY), and Security  Description (DSCI) for pre-FASB companies in Xpressfeed
 
 ***********************************************************************************************/
 
