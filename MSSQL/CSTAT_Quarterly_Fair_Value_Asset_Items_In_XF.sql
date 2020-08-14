@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Quarterly Fair Value Asset Items.
+/***********************************************************************************************
+Returns Quarterly Fair Value Asset Items
 
 Packages Required:
 Core
@@ -26,13 +26,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns quarterly Fair Value Asset Items related to SFAS 157 and Fair 
-Value Changes in Earnings related to SFAS 159.
+This query returns quarterly Fair Value Asset Items related to SFAS 157 and Fair  Value Changes in Earnings related to SFAS 159
 
 ***********************************************************************************************/
 
@@ -52,11 +51,11 @@ SELECT c.conml
 
 , cd.acctchgq
 
-, qf1.aqpl1q AS [ Level 1 Asset ]  
+, qf1.aqpl1q AS [ Level 1 Asset ] xa0
 
- , qf1.aol2q AS [ Level 2 Asset ]  
+xa0, qf1.aol2q AS [ Level 2 Asset ] xa0
 
- , qf1.aul3q AS [ Level 3 Asset ]
+xa0, qf1.aul3q AS [ Level 3 Asset ]
 
 , qf1.anoq AS [ Fair Value Net Adjustment ]
 
