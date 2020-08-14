@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Members, Pricing and Market Value For A Specific Date.
+/***********************************************************************************************
+Returns Members, Pricing And Market Value For A Specific Date
 
 Packages Required:
 Core
@@ -17,14 +17,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the adjusted close price, common shares outstanding current, 
-adjusted common shares outstanding current, ticker symbol, and the market value for 
-members of the SP 500 Index on a specific date in Xpressfeed.
+This query returns the adjusted close price, common shares outstanding current,  adjusted common shares outstanding current, ticker symbol, and the market value for  members of the SP 500 Index on a specific date in Xpressfeed
 
 ***********************************************************************************************/
 
