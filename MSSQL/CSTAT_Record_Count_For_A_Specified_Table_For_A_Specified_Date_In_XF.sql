@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling Record Count For A Specified Table For A Specified Date.
+/***********************************************************************************************
+Returns Record Count For A Specified Table For A Specified Date
 
 Packages Required:
 Core
@@ -17,12 +17,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the record count for a specified table for a specified time period.
+This query returns the record count for a specified table for a specified time period
 
 ***********************************************************************************************/
 
