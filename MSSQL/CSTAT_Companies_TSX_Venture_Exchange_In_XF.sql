@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Companies TSX Venture Exchange.
+/***********************************************************************************************
+Returns Companies TSX Venture Exchange
 
 Packages Required:
 Core
@@ -21,12 +21,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns companies on the TSX Venture Exchange OR the Toronto Stock Exchange (TSX).
+This query returns companies on the TSX Venture Exchange OR the Toronto Stock Exchange (TSX)
 
 ***********************************************************************************************/
 
