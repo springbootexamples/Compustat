@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Foreign Goverment Sales.
+/***********************************************************************************************
+Returns Foreign Goverment Sales
 
 Packages Required:
 Core
@@ -18,12 +18,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns GVKEYs where the Customer Name contains foreign g.
+This query returns GVKEYs where the Customer Name contains foreign g
 
 ***********************************************************************************************/
 
@@ -39,4 +39,4 @@ WHERE cnms like 'foreign g%'
 ---WHERE gvkey=002285 
 ---(company reporting domestic (GOVDOM) and foreign (GOVFRN) government sales is Boeing)
 
-ORDER BY gvkey 
+ORDER BY gvkey
