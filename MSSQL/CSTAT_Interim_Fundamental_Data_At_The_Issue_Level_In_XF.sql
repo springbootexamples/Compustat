@@ -1,5 +1,5 @@
-/************************************************************************************************
-Calculating Interim Fundamental Data At the Issue Level.
+/***********************************************************************************************
+Returns Interim Fundamental Data At The Issue Level
 
 Packages Required:
 Core
@@ -24,12 +24,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns interim fundamental data for Samsung Electronics Co Ltd. in Xpressfeed.
+This query returns interim fundamental data for Samsung Electronics Co Ltd. in Xpressfeed
 
 ***********************************************************************************************/
 
