@@ -1,5 +1,5 @@
 /************************************************************************************************
-Calculating Berry Ratio In XF.
+Calculating Berry Ratio
 
 Packages Required:
 Core
@@ -31,8 +31,7 @@ DatasetKey:
 8
 
 This query returns the Berry Ratio for companies on a specific datadate using the Compustat packages
-in Xpressfeed.
-Note: This query replicates the Berry Ratio (BERRY) concept in Research Insight.
+in Xpressfeed. Note: This query replicates the Berry Ratio (BERRY) concept in Research Insight.
 
 ***********************************************************************************************/
 
