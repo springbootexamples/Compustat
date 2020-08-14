@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Data Availibilty For A Particular Index.
+/***********************************************************************************************
+Returns Data Availability For A Particular Index
 
 Packages Required:
 Core
@@ -19,12 +19,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query  the data available the REIT Index in Xpresfeed.
+This query  the data available the REIT Index in Xpresfeed
 
 ***********************************************************************************************/
 
