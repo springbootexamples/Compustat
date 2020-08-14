@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Active Companies that have filed Bankruptcy.
+/***********************************************************************************************
+Returns Active Companies That Have Filed Bankruptcy
 
 Packages Required:
 Core
@@ -27,13 +27,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query finds companies that have pricing in the last year and have a filed bankruptcy 
-flagged with a TL/GL footnote on Total Assets using the Compustat financials in Xpressfeed.
+This query finds companies that have pricing in the last year and have a filed bankruptcy  flagged with a TL/GL footnote on Total Assets using the Compustat financials in Xpressfeed
 
 ***********************************************************************************************/
 
