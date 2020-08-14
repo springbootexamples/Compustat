@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling Growth Or Value Index Constituents.
+/***********************************************************************************************
+Returns Growth Or Value Index Constituents
 
 Packages Required:
 Core
@@ -19,12 +19,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8,100
 
-This query returns the constituents of the SP/Barra 500 Growth as of July 29, 2005.
+This query returns the constituents of the SP/Barra 500 Growth as of July 29, 2005
 
 ***********************************************************************************************/
 
