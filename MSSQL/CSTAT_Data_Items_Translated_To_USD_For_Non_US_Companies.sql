@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Data Item Translated To USD for Non-US Companies.
+/***********************************************************************************************
+Returns Data Item Translated To USD For Non-US Companies
 
 Packages Required:
 Core
@@ -18,15 +18,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the Global Industry Classification Standard (GICS) Sector, GICS Description (GICDESC), 
-International Organization for Standardization (ISO) Currency Code (CURCD), Revenue -Total (REVT) 
-displayed in U.S. Dollars (USD), USD Translation Rate, and the 12-month moving Average Exchange
-Rate (EXRAT12M) for all European companies in Xpressfeed.
+This query returns the Global Industry Classification Standard (GICS) Sector, GICS Description (GICDESC),  International Organization for Standardization (ISO) Currency Code (CURCD), Revenue -Total (REVT)  displayed in U.S. Dollars (USD), USD Translation Rate, and the 12-month moving Average Exchange Rate (EXRAT12M) for all European companies in Xpressfeed
 
 ***********************************************************************************************/
 
