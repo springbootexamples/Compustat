@@ -1,5 +1,5 @@
-/************************************************************************************************
-Calculating Market Value for Global Companies with multiple issues
+/***********************************************************************************************
+Returns Market Value For Global Companies With Multiple Issues
 
 Packages Required:
 Core
@@ -21,13 +21,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query calculates market capitalization for a Global company with multiple 
-issues with fundamental data available.
+This query calculates market capitalization for a Global company with multiple  issues with fundamental data available
 
 ***********************************************************************************************/
 
