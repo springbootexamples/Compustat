@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Companies With Ommitted Or Suspended Dividends
+/***********************************************************************************************
+Returns Companies With Ommitted Or Suspended Dividends
 
 Packages Required:
 Core
@@ -21,13 +21,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query identifies a large group of companies that have omitted or suspended dividends in September 2008, 
-including Lehman, AIG, Fannie Mae and Freddie Mac.
+This query identifies a large group of companies that have omitted or suspended dividends in September 2008,  including Lehman, AIG, Fannie Mae and Freddie Mac
 
 ***********************************************************************************************/
 
