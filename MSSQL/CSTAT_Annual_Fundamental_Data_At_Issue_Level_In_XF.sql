@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Annual Fundamental Data At The Issue Level.
+/***********************************************************************************************
+Returns Annual Fundamental Data At The Issue Level
 
 Packages Required:
 Core
@@ -24,13 +24,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns annual fundamental data for Shanghai Electric Group Co Ltd. in Xpressfeed.
----Pulls Annual Issue Data , Footnotes, and Data Codes.
+This query returns annual fundamental data for Shanghai Electric Group Co Ltd. in Xpressfeed. ---Pulls Annual Issue Data , Footnotes, and Data Codes
 
 ***********************************************************************************************/
 
