@@ -1,5 +1,5 @@
-/************************************************************************************************
-Calculating Quarterly Enterprise Value for a company.
+/***********************************************************************************************
+Returns Quarterly Enterprise Value For A Company
 
 Packages Required:
 Core
@@ -22,12 +22,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This calculates Enterprise Value on a quarterly basis for IBM in Xpressfeed.
+This calculates Enterprise Value on a quarterly basis for IBM in Xpressfeed
 
 ***********************************************************************************************/
 
