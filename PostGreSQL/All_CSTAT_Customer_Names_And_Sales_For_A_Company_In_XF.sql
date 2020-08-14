@@ -1,5 +1,5 @@
 /************************************************************************************************
-Finding Customer Names And Sales For A Company.
+Finding Customer Names And Sales For A Company
 
 Packages Required:
 Core
