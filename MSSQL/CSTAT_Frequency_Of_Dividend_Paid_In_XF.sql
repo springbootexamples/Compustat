@@ -1,5 +1,5 @@
-/************************************************************************************************
-Calculating Frequency Of Dividends Paid In XF.
+/***********************************************************************************************
+Returns Frequency Of Dividends Paid
 
 Packages Required:
 Core
@@ -18,12 +18,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query calculates the frequency of dividends paid during a calender year in Xpressfeed.
+This query calculates the frequency of dividends paid during a calender year in Xpressfeed
 
 ***********************************************************************************************/
 
