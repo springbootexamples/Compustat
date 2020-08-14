@@ -1,5 +1,5 @@
-/************************************************************************************************
-Calculating Number Of Companies with Final Annual Updates.
+/***********************************************************************************************
+Returns Number Of Companies With Final Annual Updates
 
 Packages Required:
 Core
@@ -22,17 +22,16 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query counts the number of final updates for Y07 fiscal-year domestic industrial 
-companies as of 5/21/08:
+This query counts the number of final updates for Y07 fiscal-year domestic industrial  companies as of 5/21/08:
 
 ***********************************************************************************************/
 
-SELECT COUNT  ( DISTINCT ( co_adesind.gvkey ) )
+SELECT COUNT xa0( DISTINCT ( co_adesind.gvkey ) )
 
 FROM co_adesind 
 
