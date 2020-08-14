@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Geographic Segements For A company.
+/***********************************************************************************************
+Returns Geographic Segments For A Company
 
 Packages Required:
 Core
@@ -18,13 +18,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns all geographic segments and sales for each segment for IBM as 
-of December 31, 2016 using Compustat Segment packages in Xpressfeed.
+This query returns all geographic segments and sales for each segment for IBM as  of December 31, 2016 using Compustat Segment packages in Xpressfeed
 
 ***********************************************************************************************/
 
