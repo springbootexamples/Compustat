@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Structured Products.
+/***********************************************************************************************
+Returns Structured Products
 
 Packages Required:
 Core
@@ -17,12 +17,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query r returns Structured Products using Compustat tables in Xpressfeed.
+This query r returns Structured Products using Compustat tables in Xpressfeed
 
 ***********************************************************************************************/
 
