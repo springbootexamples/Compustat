@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Quarterly IS And BS Balancing Models For Banks.
+/***********************************************************************************************
+Returns Quarterly IS And BS Balancing Models For Banks
 
 Packages Required:
 Core
@@ -27,13 +27,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns Quarterly Income Statement (IS) balancing model for banks in Xpressfeed.
-Note: Uncomment the second query to  return the Quarterly Balance Sheet balancing model for banks in Xpressfeed.
+This query returns Quarterly Income Statement (IS) balancing model for banks in Xpressfeed. Note: Uncomment the second query to  return the Quarterly Balance Sheet balancing model for banks in Xpressfeed
 
 ***********************************************************************************************/
 
