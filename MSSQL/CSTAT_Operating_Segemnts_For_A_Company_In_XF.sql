@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Operating Segments For a Company.
+/***********************************************************************************************
+Returns Operating Segments For A Company
 
 Packages Required:
 Core
@@ -18,13 +18,13 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns all operating segments for ALLIS-CHALMERS ENERGY INC as of 12/31/2007
-_
+This query returns all operating segments for ALLIS-CHALMERS ENERGY INC as of 12/31/2007 _ /
+
 ***********************************************************************************************/
 
 SELECT c.conm
