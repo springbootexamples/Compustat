@@ -1,5 +1,5 @@
-/************************************************************************************************
-Non-Interest Bearing Current Liabilities.
+/***********************************************************************************************
+Non-Interest Bearing Current Liabilities
 
 Packages Required:
 Core
@@ -22,12 +22,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query calculates total non-interest bearing current liabilities.
+This query calculates total non-interest bearing current liabilities
 
 ***********************************************************************************************/
 
@@ -50,5 +50,5 @@ WHERE co_afnd1.gvkey = 006066
 
 AND co_afnd1.datadate = '12/31/2008' 
 
-AND co_afnd1.datafmt = 'std'  
+AND co_afnd1.datafmt = 'std' xa0
 
