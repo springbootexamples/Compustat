@@ -1,5 +1,5 @@
 /************************************************************************************************
-Pulling All Change To A Cstat Item Over Time In Canadian Point In Time In XF.
+Return All Changes To A Compustat Item Over Time In Canadian Point In Time
 
 Packages Required:
 Core
