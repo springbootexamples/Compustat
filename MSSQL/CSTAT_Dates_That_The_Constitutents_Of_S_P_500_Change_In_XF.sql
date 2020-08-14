@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling Dates That the Constituents Of SandP 500 Change.
+/***********************************************************************************************
+Returns Dates That The Constituents Of S&P 500 Change
 
 Packages Required:
 Core
@@ -17,13 +17,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the dates that the constituents of the SP 500 Index change using
-the Compustat packages in Xpressfeed.
+This query returns the dates that the constituents of the SP 500 Index change using the Compustat packages in Xpressfeed
 
 ***********************************************************************************************/
 
