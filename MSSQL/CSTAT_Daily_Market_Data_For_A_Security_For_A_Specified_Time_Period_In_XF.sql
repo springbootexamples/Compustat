@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Daily Market Data For A security.
+/***********************************************************************************************
+Returns Daily Market Data For A Security
 
 Packages Required:
 Core
@@ -22,13 +22,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query  provides the daily close price (PRCCD), adjustment factor (AJEXDI), and 
-common shares outstanding (CSHOC) for a security over a specified date range.
+This query  provides the daily close price (PRCCD), adjustment factor (AJEXDI), and  common shares outstanding (CSHOC) for a security over a specified date range
 
 ***********************************************************************************************/
 
