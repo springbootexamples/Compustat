@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding PE, BKVLPS and Price Sales.
+/***********************************************************************************************
+Returns PE, BKVLPS And Price Sales
 
 Packages Required:
 Core
@@ -20,13 +20,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8,100
 
-This query returns returns Price-to-Earnings ratio (PE), Price-to-Book (Book Value per Share)
-, and Price-to-Sales (Price/Sales) for the SP 500 Index in Xpressfeed.
+This query returns returns Price-to-Earnings ratio (PE), Price-to-Book (Book Value per Share) , and Price-to-Sales (Price/Sales) for the SP 500 Index in Xpressfeed
 
 ***********************************************************************************************/
 
@@ -68,4 +67,4 @@ GROUP BY im.gvkeyx
 
 , ia.sale 
 
-ORDER BY im.datadate DESC 
+ORDER BY im.datadate DESC
