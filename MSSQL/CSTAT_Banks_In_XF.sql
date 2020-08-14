@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding CSTAT Banks.
+/***********************************************************************************************
+Returns Compustat Banks
 
 Packages Required:
 Bank
@@ -18,13 +18,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query  returns a list of the banks included in the Xpressfeed™ database population and 
-removes duplicate names.
+This query  returns a list of the banks included in the Xpressfeed database population and  removes duplicate names
 
 ***********************************************************************************************/
 
