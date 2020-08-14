@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Date Of Adoption.
+/***********************************************************************************************
+Returns Date Of Adoption
 
 Packages Required:
 Pension
@@ -19,12 +19,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query  identifies companies who have adopted FASB 132 and returns the date of adoption.
+This query  identifies companies who have adopted FASB 132 and returns the date of adoption
 
 ***********************************************************************************************/
 
