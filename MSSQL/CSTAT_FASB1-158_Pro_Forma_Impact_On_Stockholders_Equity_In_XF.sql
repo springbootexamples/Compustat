@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding FASB 158 Pro Forma Impact On StockHolders Equity.
+/***********************************************************************************************
+Returns FASB 158 Pro Forma Impact On StockHolders Equity
 
 Packages Required:
 Pension
@@ -23,13 +23,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query calculates the impact of SFAS 158 on Shareholders Equity for years prior to adoption 
-(assuming a statutory tax rate of 35%).
+This query calculates the impact of SFAS 158 on Shareholders Equity for years prior to adoption  (assuming a statutory tax rate of 35%)
 
 ***********************************************************************************************/
 
