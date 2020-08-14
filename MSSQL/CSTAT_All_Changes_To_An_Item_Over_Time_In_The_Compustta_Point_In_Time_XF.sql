@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding All Changes To An Item Over Time In Compustat Point-In-Time
+/***********************************************************************************************
+Returns All Changes To An Item Over Time In Compustat Point-In-Time
 
 Packages Required:
 Core
@@ -19,19 +19,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-
-This query uses tables in the Compustat® Point-in-Time Backtest Package to show original values and 
-any subsequent changes to a data item over time and is valid for users of MS SQL.
-It returns the datadate, pointdate, value and data code for the original and revised instances. 
-The query represents an abbreviated time series in that it does not return all datadates and pointdates f
-or the item: It only returns datadates and pointdates for when there is an original value or a change.
-Note:This query specifically identifies original values and changes to quarterly sales for GVKEY 001487. 
-The mnemonic and GVKEY can be changed to run for other items and companies.
+This query uses tables in the Compustat Point-in-Time Backtest Package to show original values and any subsequent changes to a data item over time. It returns the datadate, pointdate, value and data code for the original and revised instances. The query represents an abbreviated time series in that it does not return all datadates and pointdates for the item: It only returns datadates and pointdates for when there is an original value or a change. Note:This query specifically identifies original values and changes to quarterly sales for GVKEY 001487.The mnemonic and GVKEY can be changed to run for other items and companies
 
 ***********************************************************************************************/
 
@@ -40,10 +33,10 @@ SELECT k.gvkey
 , MIN ( k.pointdate ) AS pointdate
 , CASE WHEN p.saleqh_dc = 7 THEN NULL
 
-  WHEN ( p.saleqh_dc IS NULL 
+xa0 WHEN ( p.saleqh_dc IS NULL 
 
 
-  OR p.saleqh_dc = 2 
+xa0 OR p.saleqh_dc = 2 
 
   OR p.saleqh_dc = 3 ) 
 
