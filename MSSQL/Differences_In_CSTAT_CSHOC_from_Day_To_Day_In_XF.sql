@@ -1,5 +1,5 @@
-/************************************************************************************************
-Calculating Differences In CSHOC.
+/***********************************************************************************************
+Returns Differences In CSHOC
 
 Packages Required:
 Core
@@ -21,13 +21,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query determines when Common Shares Outstanding - Current (CSHOC) values change from 
-one day to the next for a company and calculates the difference in those values.
+This query determines when Common Shares Outstanding - Current (CSHOC) values change from  one day to the next for a company and calculates the difference in those values
 
 ***********************************************************************************************/
 
