@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Annual Fair Value Liabilty Items In XF.
+/***********************************************************************************************
+Returns Annual Fair Value Liability Items
 
 Packages Required:
 Core
@@ -24,13 +24,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns annual Fair Value Liability Items related to SFAS 157 and Fair Value Changes 
-in Earnings related to SFAS 159.
+This query returns annual Fair Value Liability Items related to SFAS 157 and Fair Value Changes  in Earnings related to SFAS 159
 
 ***********************************************************************************************/
 
