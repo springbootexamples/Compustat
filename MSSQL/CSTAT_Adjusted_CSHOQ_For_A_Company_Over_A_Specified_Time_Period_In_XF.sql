@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Adjusted CSHOQ for a company over a Spefic Time period.
+/***********************************************************************************************
+Returns Adjusted CSHOQ For A Company Over A Specific Time Period
 
 Packages Required:
 Core
@@ -21,12 +21,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This querypulls the quarterly common shares outstanding (CSHOQ) on an unadjusted and adjusted basis.
+This querypulls the quarterly common shares outstanding (CSHOQ) on an unadjusted and adjusted basis
 
 ***********************************************************************************************/
 
