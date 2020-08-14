@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Companies Where CURCD Differs From CURCDQ.
+/***********************************************************************************************
+Returns Companies Where CURCD Differs From CURCDQ
 
 Packages Required:
 Core
@@ -22,13 +22,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns companies where the ISO Currency Code - Annual is different from 
-the ISO Currency Code - Quarterly for the same year
+This query returns companies where the ISO Currency Code - Annual is different from  the ISO Currency Code - Quarterly for the same year
 
 ***********************************************************************************************/
 
