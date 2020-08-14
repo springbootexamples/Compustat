@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling Population Of Private Companies With Public Debt In XF.
+/***********************************************************************************************
+Returns Population Of Private Companies With Public Debt
 
 Packages Required:
 Core
@@ -18,12 +18,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the companies with public debt in the Compustat population in Xpressfeed.
+This query returns the companies with public debt in the Compustat population in Xpressfeed
 
 ***********************************************************************************************/
 
