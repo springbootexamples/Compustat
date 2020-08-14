@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Quarterly  Static And Dynamic Transparency Data.
+/***********************************************************************************************
+Returns Quarterly  Static And Dynamic Transparency Data
 
 Packages Required:
 Core
@@ -31,12 +31,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns both the static and dynamic quarterly transparency for a GVKEY on a specific datadate.
+This query returns both the static and dynamic quarterly transparency for a GVKEY on a specific datadate
 
 ***********************************************************************************************/
 
