@@ -1,5 +1,5 @@
-/************************************************************************************************
-Calculating Semi-Annual Cash Flow.
+/***********************************************************************************************
+Returns Semi-Annual Cash Flow
 
 Packages Required:
 Core
@@ -26,12 +26,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query calculates semi-annual cash flow from operating activities (OANCFY) for international companies.
+This query calculates semi-annual cash flow from operating activities (OANCFY) for international companies
 
 ***********************************************************************************************/
 
