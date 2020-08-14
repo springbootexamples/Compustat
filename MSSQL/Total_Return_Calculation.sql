@@ -1,6 +1,5 @@
-/************************************************************************************************
-The following sample query below retrieves Total return calculation for company INTL BUSINESS 
-MACHINES CORP (006066).
+/***********************************************************************************************
+Returns Total Return
 
 Packages Required:
 Core
@@ -21,13 +20,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-25\05\2020
+25/05/2020
 
 DatasetKey:
 8
 
-The following sample query below retrieves Total return calculation for company INTL BUSINESS 
-MACHINES CORP (006066).
+The following sample query below retrieves Total return calculation for company INTL BUSINESS  MACHINES CORP (006066).  /
 
 ***********************************************************************************************/
 
@@ -56,7 +54,7 @@ select
     r1.prccd,
     r1.ajexdi,
     r1.trfd,
-    (((((r1.PRCCD/r1.AJEXDI)*ISNULL( r1.TRFD,1))/((r2.PRCCD/r2.AJEXDI)*ISNULL(r2.TRFD,1)))-1)*100)AS TotalReturn
+    (((((r1.PRCCD1.AJEXDI)*ISNULL( r1.TRFD,1))/((r2.PRCCD2.AJEXDI)*ISNULL(r2.TRFD,1)))-1)*100)AS TotalReturn
 from 
     retData r1
 join retData r2
