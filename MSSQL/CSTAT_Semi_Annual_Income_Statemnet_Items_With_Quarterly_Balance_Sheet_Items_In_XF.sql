@@ -1,5 +1,5 @@
-/************************************************************************************************
-Joining Semi Annual Income Statement Items with Quarterly Balance Sheet Items for International Companies.
+/***********************************************************************************************
+Joining Semi Annual Income Statement Items With Quarterly Balance Sheet Items For International Companies
 
 Packages Required:
 Core
@@ -26,13 +26,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query joins Semi-Annual Sales from the Income Statement items with Quarterly Total Assets
-from the Balance Sheet items for International companies.
+This query joins Semi-Annual Sales from the Income Statement items with Quarterly Total Assets from the Balance Sheet items for International companies
 
 ***********************************************************************************************/
 
