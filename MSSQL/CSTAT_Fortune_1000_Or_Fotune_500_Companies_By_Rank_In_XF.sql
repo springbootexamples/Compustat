@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling Fortune 1000/Fortune 500 Companies By Rank In XF.
+/***********************************************************************************************
+Returns Fortune 1000/Fortune 500 Companies By Rank
 
 Packages Required:
 Core
@@ -21,14 +21,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the Fortune 1000 companies by rank as of a given year in Xpressfeed.
-Note: Uncomment the second query to return the Fortune 500 companies by rank as of a 
-given year in Xpressfeed.
+This query returns the Fortune 1000 companies by rank as of a given year in Xpressfeed. Note: Uncomment the second query to return the Fortune 500 companies by rank as of a  given year in Xpressfeed
 
 ***********************************************************************************************/
 
