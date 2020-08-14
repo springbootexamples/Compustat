@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling Sales Growth For An Index.
+/***********************************************************************************************
+Returns Sales Growth For An Index
 
 Packages Required:
 Core
@@ -20,13 +20,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8,100
 
-This query returns the one-year sales growth for the SP 500 Index as of December 31, 2016 
-using the Compustat files in Xpressfeed.
+This query returns the one-year sales growth for the SP 500 Index as of December 31, 2016  using the Compustat files in Xpressfeed
 
 ***********************************************************************************************/
 
