@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling Financial Services Company.
+/***********************************************************************************************
+Returns Financial Services Company
 
 Packages Required:
 Core
@@ -18,12 +18,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns Total Assets for Aetnas financial services format as of 12/31/2009.
+This query returns Total Assets for Aetnas financial services format as of 12/31/2009
 
 ***********************************************************************************************/
 
