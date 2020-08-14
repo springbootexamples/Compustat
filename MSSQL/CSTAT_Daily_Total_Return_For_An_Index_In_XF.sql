@@ -1,5 +1,5 @@
-/************************************************************************************************
-Calculating Daily Total Return For an Index
+/***********************************************************************************************
+Returns Daily Total Return For An Index
 
 Packages Required:
 Core
@@ -20,14 +20,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8,100
 
-This query calculates the daily total return and daily price return for the 
-SP 500 Index from the current date, as far back as data is available 
-for Index Value - Total Return - Dividends (PRCCDDIV) and Index Value - Price (PRCCD):
+This query calculates the daily total return and daily price return for the  SP 500 Index from the current date, as far back as data is available  for Index Value - Total Return - Dividends (PRCCDDIV) and Index Value - Price (PRCCD):
 
 ***********************************************************************************************/
 
@@ -37,7 +35,7 @@ yesterday.datadate,
 today.prccddiv, 
 ( ( today.prccddiv / yesterday.prccddiv ) - 1 ) * 100 dailytotalreturnpct, 
 today.prccd, 
-( ( today.prccd / yesterday.prccd ) - 1 ) * 100       dailypricereturnpct
+( ( today.prccd / yesterday.prccd ) - 1 ) * 100 xa0 xa0 xa0 dailypricereturnpct
 
 FROM idx_daily today ( NOLOCK )
 
@@ -47,7 +45,7 @@ ON today.gvkeyx = yesterday.gvkeyx
 WHERE yesterday.datadate = (SELECT Max (datadate)
 
 FROM idx_daily sub ( NOLOCK )
-WHERE sub.gvkeyx = today.gvkeyx 
+WHERE sub.gvkeyx = today.gvkeyxxa0
 
 AND yesterday.prccddiv IS NOT NULL
 AND today.gvkeyx = 000003)
