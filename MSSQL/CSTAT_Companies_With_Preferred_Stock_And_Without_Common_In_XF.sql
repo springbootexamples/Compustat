@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Companies With Preferred Stock And Without Common.
+/***********************************************************************************************
+Returns Companies With Preferred Stock And Without Common
 
 Packages Required:
 Core
@@ -18,12 +18,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns companies without common or ordianry stock, but with preferred shares in Xpressfeed.
+This query returns companies without common or ordinary stock, but with preferred shares in Xpressfeed
 
 ***********************************************************************************************/
 
@@ -39,5 +39,5 @@ WHERE tpci = '0' )
 
 AND gvkey IN ( SELECT DISTINCT gvkey 
               FROM security 
-			  WHERE tpci = '1' )
+                          WHERE tpci = '1' )
 
