@@ -1,5 +1,5 @@
-/************************************************************************************************
-Calculating Daily Total Return For Multiple Periods.
+/***********************************************************************************************
+Returns Daily Total Return For Multiple Periods
 
 Packages Required:
 Core
@@ -22,16 +22,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This calculates the Daily Total Returns for IBMs primary issue (GVKEY = 006066, IID = 01) 
-for three time periods:Note: The 1-year return (TRT1Y) is calculated over the period from 
-March 6, 2012 thru March 6, 2013. The 3-year return (TRT3Y) is calculated over the period from 
-March 4, 2010 thru March 6, 2013. The 5-year return (TRT5Y) is calculated over the period 
-from March 4, 2008 thru March 6, 2013.
+This calculates the Daily Total Returns for IBMs primary issue (GVKEY = 006066, IID = 01)  for three time periods:Note: The 1-year return (TRT1Y) is calculated over the period from  March 6, 2012 thru March 6, 2013. The 3-year return (TRT3Y) is calculated over the period from  March 4, 2010 thru March 6, 2013. The 5-year return (TRT5Y) is calculated over the period  from March 4, 2008 thru March 6, 2013
 
 ***********************************************************************************************/
 
