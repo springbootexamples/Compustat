@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Companies Who Report Cash Flows Using Direct Method Statement.
+/***********************************************************************************************
+Returns Companies Who Report Cash Flows Using Direct Method Statement
 
 Packages Required:
 Core
@@ -18,13 +18,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns a line for each company and time period when the company reports a Cash Flow Statement 
-using the Direct Method.
+This query returns a line for each company and time period when the company reports a Cash Flow Statement  using the Direct Method
 
 ***********************************************************************************************/
 
