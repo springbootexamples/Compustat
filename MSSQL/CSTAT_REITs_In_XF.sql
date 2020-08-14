@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding REITs In Xf.
+/***********************************************************************************************
+Returns REITs
 
 Packages Required:
 Core
@@ -18,14 +18,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query return Real Estate Investment Trust (REIT) companies by searching for companies with a
-Standard Industrial Classification (SIC) code of 6798 or a Global Industry Classification Standard (GICS) 
-Industry code of 404020 in the company table in Xpressfeed.(Uncomment the second query to get GICS).
+This query return Real Estate Investment Trust (REIT) companies by searching for companies with a Standard Industrial Classification (SIC) code of 6798 or a Global Industry Classification Standard (GICS)  Industry code of 404020 in the company table in Xpressfeed.(Uncomment the second query to get GICS)
 
 ***********************************************************************************************/
 
