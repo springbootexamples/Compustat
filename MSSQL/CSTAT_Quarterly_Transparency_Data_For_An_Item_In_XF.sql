@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Quarterly Transperancy Data for An Item.
+/***********************************************************************************************
+Returns Quarterly Transparency Data For An Item
 
 Packages Required:
 Core
@@ -32,13 +32,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the transparency calculations of Cost of Goods Sold - 
-Quarterly (COGSQ) on one datadate using the Compustat Transparency data in Xpressfeed.
+This query returns the transparency calculations of Cost of Goods Sold -  Quarterly (COGSQ) on one datadate using the Compustat Transparency data in Xpressfeed
 
 ***********************************************************************************************/
 
@@ -67,4 +66,4 @@ AND cq1.item = 'cogsq' -- item mnemonic
 AND e.gvkey = '006066'
 AND cq1.datadate = '03/31/2012'
 
-ORDER BY cq1.sequencet
+ORDER BYxa0cq1.sequencet
