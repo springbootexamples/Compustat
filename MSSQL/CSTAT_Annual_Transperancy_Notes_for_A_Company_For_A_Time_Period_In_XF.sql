@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Annual Transperancy Notes For A Company.
+/***********************************************************************************************
+Returns Annual Transparency Notes For A Company
 
 Packages Required:
 Core
@@ -27,12 +27,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns all annual item notes and note subtypes for Starbucks Corp later than September 30, 2007 in Xpressfeed.
+This query returns all annual item notes and note subtypes for Starbucks Corp later than September 30, 2007 in Xpressfeed
 
 ***********************************************************************************************/
 
