@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling Primary And Secondary SIC Codes For A Company.
+/***********************************************************************************************
+Returns Primary And Secondary SIC Codes For A Company
 
 Packages Required:
 Xpressfeed Reference
@@ -17,14 +17,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the primary and secondary Standard Industrial Classification (SIC) codes for
-a company in Xpressfeed.
-Not: Uncomment the second query to return the historical SIC segments in Xpressfeed.
+This query returns the primary and secondary Standard Industrial Classification (SIC) codes for a company in Xpressfeed. Note: Uncomment the second query to return the historical SIC Xpressfeed
 
 ***********************************************************************************************/
 
