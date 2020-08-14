@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Data Item That Have Never Been Restated In Snapshot.
+/***********************************************************************************************
+Returns Data Item That Have Never Been Restated In Snapshot
 
 Packages Required:
 Snapshot
@@ -17,13 +17,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns a true or false based on how many records exist in the Snapshot 
-North America database for COGSQ for IBM:
+This query returns a true or false based on how many records exist in the Snapshot  North America database for COGSQ for IBM:
 
 ***********************************************************************************************/
 
