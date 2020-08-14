@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Number Of Companies In Annual Or Monthly Files In XF.
+/***********************************************************************************************
+Returns Number Of Companies In Annual Or Monthly Files
 
 Packages Required:
 Core
@@ -17,12 +17,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the number of companies in the co_adesind data group.
+This query returns the number of companies in the co_adesind data group
 
 ***********************************************************************************************/
 
