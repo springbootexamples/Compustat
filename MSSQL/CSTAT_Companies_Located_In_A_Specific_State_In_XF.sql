@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Companies In A Located State.
+/***********************************************************************************************
+Returns Companies In A Located State
 
 Packages Required:
 Core
@@ -20,13 +20,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query  finds companies in Colorado and displays their City, ZIP/Postal Code, 
-and GICS Sub-Industry Code and description.
+This query  finds companies in Colorado and displays their City, ZIP/Postal Code,  and GICS Sub-Industry Code and description
 
 ***********************************************************************************************/
 
