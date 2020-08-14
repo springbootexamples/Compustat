@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling Industrial Format Income Statement, Balance Sheet, and Cash Flow Balancing Models.
+/***********************************************************************************************
+Returns Industrial Format Income Statement, Balance Sheet, And Cash Flow Balancing Models
 
 Packages Required:
 Core
@@ -25,14 +25,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the North America Industrial Format (INDFMT = INDL) Income Statement Balancing Model.
-Uncomment the second query to get the North America Industrial Format (INDFMT = INDL) Balance Sheet Balancing Model.
-Uncomment the third query to get the North America Industrial Format (INDFMT = INDL) Cash Flow Balancing Model.
+This query returns the North America Industrial Format (INDFMT = INDL) Income Statement Balancing Model. Uncomment the second query to get the North America Industrial Format (INDFMT = INDL) Balance Sheet Balancing Model. Uncomment the third query to get the North America Industrial Format (INDFMT = INDL) Cash Flow Balancing Model
 
 ***********************************************************************************************/
 
