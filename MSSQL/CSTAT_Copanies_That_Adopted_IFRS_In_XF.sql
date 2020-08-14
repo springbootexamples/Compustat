@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling Companies That Adopted IFRS In XF
+/***********************************************************************************************
+Returns Companies That Adopted IFRS
 
 Packages Required:
 Core
@@ -23,15 +23,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-Companies that have adopted International Financial Reporting Standards (IFRS) can be identified by an
-AN or AN-combination footnote on the Comparability Status item (COMPTS).
-This query returns companies that adopted IFRS indicated by an AN or AN-combination footnote 
-in COMPST preceded by a DS footnote.
+Companies that have adopted International Financial Reporting Standards (IFRS) can be identified by an AN or AN-combination footnote on the Comparability Status item (COMPTS). This query returns companies that adopted IFRS indicated by an AN or AN-combination footnote  in COMPST preceded by a DS footnote
 
 ***********************************************************************************************/
 
@@ -93,4 +90,4 @@ AND sup.datadate = ( DATEADD ( year, -1, co_adesind.datadate ) )
 AND sup.acctstd = 'ds' 
 
 
-ORDER BY co_adesind.gvkey 
+ORDER BY co_adesind.gvkey
