@@ -1,5 +1,5 @@
-/************************************************************************************************
-Calculating Foreign Sales As a percentage Of Total Sales.
+/***********************************************************************************************
+Returns Foreign Sales As A Percentage Of Total Sales
 
 Packages Required:
 Core
@@ -18,13 +18,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the sales values for each geographic segment for IBM for fiscal year 2010 as a 
-percentage of total sales in Xpressfeed.
+This query returns the sales values for each geographic segment for IBM for fiscal year 2010 as a  percentage of total sales in Xpressfeed
 
 ***********************************************************************************************/
 
