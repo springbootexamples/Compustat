@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling Total Debt To Total Assets.
+/***********************************************************************************************
+Returns Total Debt To Total Assets
 
 Packages Required:
 Core
@@ -23,14 +23,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the Total Debt to Total Assets ratio for companies on a specific datadate 
-using the Compustat packages in Xpressfeed.
-Note: This query replicates the Total Debt/Total Assets (DAT) concept in Research Insight.
+This query returns the Total Debt to Total Assets ratio for companies on a specific datadate  using the Compustat packages in Xpressfeed. Note: This query replicates the Total Debt/Total Assets (DAT) concept in Research Insight
 
 ***********************************************************************************************/
 
