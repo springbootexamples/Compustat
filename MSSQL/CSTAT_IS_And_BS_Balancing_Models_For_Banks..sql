@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling IS And BS Balancing Models For Banks.
+/***********************************************************************************************
+Returns IS And BS Balancing Models For Banks
 
 Packages Required:
 Core
@@ -27,13 +27,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the Income Statement (IS) balancing model for banks in Xpressfeed.
-Note: Uncomment the second query to get the Balance Sheet (BS) balancing model for banks in Xpressfeed.
+This query returns the Income Statement (IS) balancing model for banks in Xpressfeed. Note: Uncomment the second query to get the Balance Sheet (BS) balancing model for banks in Xpressfeed
 
 ***********************************************************************************************/
 
@@ -334,6 +333,6 @@ AND ca.datadate = '12/31/2006'
 
 ORDER BY c.conml 
 
-, caf1.popsrc, caf1.datadate DESC  
+, caf1.popsrc, caf1.datadate DESC xa0
 
 *****/
