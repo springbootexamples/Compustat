@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling All Change To A Cstat Item Over Time In Canadian Point In Time In XF.
+/***********************************************************************************************
+Returns All Change To A Compustat Item Over Time In Canadian Point In Time
 
 Packages Required:
 Core
@@ -19,13 +19,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query  query specifically identifies original values and the corresponding changes from 
-the original to restated values for Quarterly Selling, General  Administrative expenses for GVKEY 149049:
+This query  query specifically identifies original values and the corresponding changes from  the original to restated values for Quarterly Selling, General  Administrative expenses for GVKEY 149049:
 
 ***********************************************************************************************/
 
@@ -34,9 +33,9 @@ SELECT k.gvkey
 , MIN ( k.pointdate ) AS pointdate 
 , CASE  WHEN p.xsgaqh_dc = '7'  THEN NULL 
           
-		 WHEN ( p.xsgaqh_dc IS NULL OR p.xsgaqh_dc = '2' OR p.xsgaqh_dc = '3' )  THEN ISNULL ( p.xsgaqh, c.xsgaq ) 
+                 WHEN ( p.xsgaqh_dc IS NULL OR p.xsgaqh_dc = '2' OR p.xsgaqh_dc = '3' )  THEN ISNULL ( p.xsgaqh, c.xsgaq ) 
              
-	     ELSE NULL  END  AS xsgaqh_alias 
+             ELSE NULL  END  AS xsgaqh_alias 
 
 
 , CASE  WHEN p.xsgaqh_dc IS NOT NULL THEN p.xsgaqh_dc  ELSE c. xsgaq_dc  END  AS xsgaqh_dc_alias 
