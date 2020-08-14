@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Dates in XF
+/***********************************************************************************************
+Returns Dates
 
 Packages Required:
 Core
@@ -17,14 +17,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query used to return a date for a specified period of time back from today.
-Note: Uncomment the second query to return ate one year earlier than another date, 
-where a.datadate is the specified date and -1 is the relative reference.
+This query used to return a date for a specified period of time back from today. Note: Uncomment the second query to return ate one year earlier than another date,  where a.datadate is the specified date and -1 is the relative reference
 
 ***********************************************************************************************/
 
