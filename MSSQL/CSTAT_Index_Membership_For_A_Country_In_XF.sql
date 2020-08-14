@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Index Membership for A country.
+/***********************************************************************************************
+Returns Index Membership For A Country
 
 Packages Required:
 Core
@@ -19,13 +19,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the dates that a company was a constituent of an index along with the name of the 
-index it was a member of.
+This query returns the dates that a company was a constituent of an index along with the name of the  index it was a member of
 
 ***********************************************************************************************/
 
