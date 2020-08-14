@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling FootNotes On Quarterly Income Statement Data.
+/***********************************************************************************************
+Returns FootNotes On Quarterly Income Statement Data
 
 Packages Required:
 Core
@@ -26,13 +26,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query displays available footnotes for Quarterly Income Statement data for the 
-specified GVKEY for the specified quarter.
+This query displays available footnotes for Quarterly Income Statement data for the  specified GVKEY for the specified quarter
 
 ***********************************************************************************************/
 
