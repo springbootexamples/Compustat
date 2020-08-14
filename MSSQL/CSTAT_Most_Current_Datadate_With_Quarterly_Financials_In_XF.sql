@@ -1,5 +1,5 @@
-/************************************************************************************************
-Ideentifying The Most Current Datadate With Quarterly financials.
+/***********************************************************************************************
+Returns The Most Current Datadate With Quarterly Financials
 
 Packages Required:
 Core
@@ -21,13 +21,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query identifies the most current datadate for multiple companies where quarterly 
-financial data is available in Xpressfeed.
+This query identifies the most current datadate for multiple companies where quarterly  financial data is available in Xpressfeed
 
 ***********************************************************************************************/
 
@@ -42,16 +41,16 @@ FROM co_idesind
 
 WHERE gvkey IN ( '018397' , 
                  '024301' , 
-				 '162796' , 
-				 '009899' , 
-				 '006066' , 
-				 '012141' , 
-				 '016101' , 
-				 '005606' )
-				 GROUP BY gvkey) latest
-				 
-				 ON a.gvkey = latest.gvkey 
-				 
-				 AND CAST(a.datadate AS DATE) = CAST(latest.timeq AS DATE)
+                                 '162796' , 
+                                 '009899' , 
+                                 '006066' , 
+                                 '012141' , 
+                                 '016101' , 
+                                 '005606' )
+                                 GROUP BY gvkey) latest
+                                 
+                                 ON a.gvkey = latest.gvkey 
+                                 
+                                 AND CAST(a.datadate AS DATE) = CAST(latest.timeq AS DATE)
 
 
