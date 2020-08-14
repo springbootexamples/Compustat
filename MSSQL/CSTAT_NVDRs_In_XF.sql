@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding NVDRs In XF
+/***********************************************************************************************
+Returns NVDRs
 
 Packages Required:
 Core
@@ -17,13 +17,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query identifies Non-Voting Depositary Receipts (NVDRs) by returning all issues with 
-NVDR in the Security Description (DSCI) in Xpressfeed.
+This query identifies Non-Voting Depositary Receipts (NVDRs) by returning all issues with  NVDR in the Security Description (DSCI) in Xpressfeed
 
 ***********************************************************************************************/
 
