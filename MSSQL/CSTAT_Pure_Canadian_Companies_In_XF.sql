@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Pure Canadian Companies
+/***********************************************************************************************
+Returns Pure Canadian Companies
 
 Packages Required:
 Core
@@ -17,15 +17,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns pure Canadian companies by searching for companies with IID ending with C 
-and Stock Exchange Code (EXCHG) = 7-10 to represent the Canadian exchanges, 
-which are both from the Security table, and Country of Incorporation (FIC) = CAN (Canada) 
-from the Company table.
+This query returns pure Canadian companies by searching for companies with IID ending with C  and Stock Exchange Code (EXCHG) = 7-10 to represent the Canadian exchanges,  which are both from the Security table, and Country of Incorporation (FIC) = CAN (Canada)  from the Company table
 
 ***********************************************************************************************/
 
