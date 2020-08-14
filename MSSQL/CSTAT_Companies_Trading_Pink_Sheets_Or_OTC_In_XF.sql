@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Companies Trading Pink Sheets or OTC
+/***********************************************************************************************
+Returns Companies Trading Pink Sheets Or OTC
 
 Packages Required:
 Core
@@ -18,12 +18,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query  returns all of the companies trading pink sheets or OTC.
+This query  returns all of the companies trading pink sheets or OTC
 
 ***********************************************************************************************/
 
