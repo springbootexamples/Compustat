@@ -1,5 +1,5 @@
-/************************************************************************************************
-Counting CSTAT Market Data
+/***********************************************************************************************
+Returns Compustat Market Data
 
 Packages Required:
 Core
@@ -20,14 +20,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query subtracts the number of companies with market data that also have an annual 
-descriptor record indicating the availability of fundamental data, and returns the number of companies 
-with market data ONLY.
+This query subtract the number of companies with market data that also have an annual  descriptor record indicating the availability of fundamental data, and returns the number of companies  with market data only
 
 ***********************************************************************************************/
 
