@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Quarterly Fair Value Liabilty Items.
+/***********************************************************************************************
+Returns Quarterly Fair Value Liability Items
 
 Packages Required:
 Core
@@ -26,13 +26,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns quarterly Fair Value Liability Items related to SFAS 157 and Fair 
-Value Changes in Earnings related to SFAS 159.
+This query returns quarterly Fair Value Liability Items related to SFAS 157 and Fair  Value Changes in Earnings related to SFAS 159
 
 ***********************************************************************************************/
 
