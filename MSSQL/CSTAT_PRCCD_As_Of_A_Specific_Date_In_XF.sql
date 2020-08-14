@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling PRCCD As Of A Specific Date.
+/***********************************************************************************************
+Returns PRCCD As Of A Specific Date
 
 Packages Required:
 Core
@@ -17,12 +17,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns Price-Close Daily for IBMs domestic issue for March 18, 2004.
+This query returns Price-Close Daily for IBMs domestic issue for March 18, 2004
 
 ***********************************************************************************************/
 
