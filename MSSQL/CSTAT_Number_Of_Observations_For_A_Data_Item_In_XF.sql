@@ -1,5 +1,5 @@
-/************************************************************************************************
-Counting Number of Observations For A Data Item
+/***********************************************************************************************
+Returns Number Of Observations For A Data Item
 
 Packages Required:
 Core
@@ -22,13 +22,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the number of companies that have a value for SALE in the co_afnd2 table in Xpressfeed
-Note: Uncomment the second query to get the number of securities per DATADATE in the sec_dprc table in Xpressfeed.
+This query returns the number of companies that have a value for SALE in the co_afnd2 table in Xpressfeed Note: Uncomment the second query to get the number of securities per DATADATE in the sec_dprc table in Xpressfeed
 
 ***********************************************************************************************/
 
