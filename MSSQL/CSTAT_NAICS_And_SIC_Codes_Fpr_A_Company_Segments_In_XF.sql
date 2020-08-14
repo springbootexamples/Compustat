@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding NAICS And SIC Codes For A company Segments.
+/***********************************************************************************************
+Returns NAICS And SIC Codes For A Company Segments
 
 Packages Required:
 Xpressfeed Reference
@@ -17,13 +17,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the Standard Industrial Classification Code - Segment (SICS) and North American Industry 
-Classification Code - Segment (NAICSS) for a companys segments.
+This query returns the Standard Industrial Classification Code - Segment (SICS) and North American Industry  Classification Code - Segment (NAICSS) for a companys segments
 
 ***********************************************************************************************/
 
