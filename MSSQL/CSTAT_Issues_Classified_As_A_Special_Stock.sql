@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding CSTAT Issues Classified As A Special Stock.
+/***********************************************************************************************
+Returns Compustat Issues Classified As A Special Stock
 
 Packages Required:
 Core
@@ -19,13 +19,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns all of the data items from the security table for issues of stock classified 
-as Special Stock (TPCI = Q) in Xpressfeed.
+This query returns all of the data items from the security table for issues of stock classified  as Special Stock (TPCI = Q) in Xpressfeed
 
 ***********************************************************************************************/
 
