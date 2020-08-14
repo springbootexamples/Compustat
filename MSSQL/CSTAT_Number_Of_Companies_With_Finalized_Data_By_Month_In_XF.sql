@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Number of Companies with Finalized Data By Month.
+/***********************************************************************************************
+Returns Number Of Companies With Finalized Data By Month
 
 Packages Required:
 Core
@@ -18,12 +18,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the number of companies that have finalized data by month.
+This query returns the number of companies that have finalized data by month
 
 ***********************************************************************************************/
 
