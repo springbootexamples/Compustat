@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling Comparable Sales.
+/***********************************************************************************************
+Returns Comparable Sales
 
 Packages Required:
 Core
@@ -17,12 +17,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the details of the Comparable Sales (%) - Quarterly for a company in Xpressfeed.
+This query returns the details of the Comparable Sales (%) - Quarterly for a company in Xpressfeed
 
 ***********************************************************************************************/
 
