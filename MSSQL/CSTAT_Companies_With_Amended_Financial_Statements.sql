@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Companies With Amended Financial Statements.
+/***********************************************************************************************
+Returns Companies With Amended Financial Statements
 
 Packages Required:
 Core
@@ -17,12 +17,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns all companies that filed an amended 10-K for the fiscal year ending 12/31/2009.
+This query returns all companies that filed an amended 10-K for the fiscal year ending 12/31/2009
 
 ***********************************************************************************************/
 
