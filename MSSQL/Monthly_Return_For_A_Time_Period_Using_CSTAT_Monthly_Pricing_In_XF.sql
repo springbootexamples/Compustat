@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Monthly Return For A Time Period Uisng Monthly Pricing.
+/***********************************************************************************************
+Returns Monthly Return For A Time Period Using Monthly Pricing
 
 Packages Required:
 Core
@@ -21,13 +21,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the 3-Month Total Return for McGraw-Hill Financial (GVKEY: 007163) using 
-monthly pricing from December 13, 2006 to March 31, 2007.
+This query returns the 3-Month Total Return for McGraw-Hill Financial (GVKEY: 007163) using  monthly pricing from December 13, 2006 to March 31, 2007
 
 ***********************************************************************************************/
 
