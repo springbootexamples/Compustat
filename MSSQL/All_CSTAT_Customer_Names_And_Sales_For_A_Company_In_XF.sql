@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Customer Names And Sales For A Company.
+/***********************************************************************************************
+Returns Customer Names And Sales For A Company
 
 Packages Required:
 Core
@@ -18,13 +18,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns all customer names and customer sales for Apple as of September 30, 2017 
-using Compustat Segment data in Xpressfeed.
+This query returns all customer names and customer sales for Apple as of September 30, 2017  using Compustat Segment data in Xpressfeed
 
 ***********************************************************************************************/
 
