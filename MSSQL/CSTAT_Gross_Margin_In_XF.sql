@@ -1,5 +1,5 @@
-/************************************************************************************************
-Calculating Gross margin(Anually and Quarterly)
+/***********************************************************************************************
+Returns Gross Margin(Annually And Quarterly)
 
 Packages Required:
 Core
@@ -23,13 +23,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query calculates Gross Margin on an Annual basis in the Compustat database.
-Note: Uncomment the second query to get quarterly results.
+This query calculates Gross Margin on an Annual basis in the Compustat database. Note: Uncomment the second query to get quarterly results
 
 ***********************************************************************************************/
 
