@@ -1,5 +1,5 @@
-/************************************************************************************************
-Calculating BerryQ Ratio In XF.
+/***********************************************************************************************
+Returns BerryQ Ratio
 
 Packages Required:
 Core
@@ -25,14 +25,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the quarterly Berry Ratio for a company using the Compustat 
-packages in Xpressfeed.
-Note: This query replicates the quarterly Berry Ratio (BERRYQ) concept in Research Insight.
+This query returns the quarterly Berry Ratio for a company using the Compustat  packages in Xpressfeed. Note: This query replicates the quarterly Berry Ratio (BERRYQ) concept in Research Insight
 
 ***********************************************************************************************/
 
@@ -44,7 +42,7 @@ Select a.gvkey
 
 ,CONVERT(DECIMAL(10,2)
 
-,(c.saleq-c.cogsq)/NULLIF(c.xsgaq,0)) BerryQtly,---- AS Items used---,
+,(c.saleq-c.cogsq)/NULLIF(c.xsgaq,0)) BerryQtly,---- ASxa0Items used---,
 
 c.saleq
 
