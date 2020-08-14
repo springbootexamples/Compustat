@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling Long Term Debt To Shareholders equity.
+/***********************************************************************************************
+Returns Long Term Debt To Shareholders Equity
 
 Packages Required:
 Core
@@ -23,14 +23,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the Long-Term Debt to Shareholders Equity for companies on a specific datadate using 
-the Compustat packages in Xpressfeed.
-Note: This query replicates the Long-Term Debt/Shareholders Equity (DSE) concept in Research Insight.
+This query returns the Long-Term Debt to Shareholders Equity for companies on a specific datadate using  the Compustat packages in Xpressfeed. Note:This query replicates the Long-Term Debt/Shareholders Equity (DSE) concept in Research Insight
 
 ***********************************************************************************************/
 
@@ -58,7 +56,7 @@ JOIN co_afnd2 c ON a.gvkey = c.gvkey
 AND a.datadate = c.datadate
 AND a.indfmt = c.indfmt
 AND a.popsrc = c.popsrc
-AND a.consol = c.consol    
+AND a.consol = c.consolxa0xa0 xa0
 AND a.datafmt = c.datafmt
 
 WHERE a.gvkey IN ('006066'
