@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Price Close Daily.
+/***********************************************************************************************
+Returns Price Close Daily
 
 Packages Required:
 Core
@@ -18,13 +18,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns Price-Close Daily (PRCCD) on the day of a companys Initial Public Offering (IPO) 
-in Xpressfeed.
+This query returns Price-Close Daily (PRCCD) on the day of a companys Initial Public Offering (IPO)  in Xpressfeed
 
 ***********************************************************************************************/
 
