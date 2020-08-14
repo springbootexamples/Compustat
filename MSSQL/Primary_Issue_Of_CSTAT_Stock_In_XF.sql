@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Primary Issue Of Stock.
+/***********************************************************************************************
+Returns Primary Issue Of Stock
 
 Packages Required:
 Core
@@ -18,12 +18,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the Primary Issue for a company in the Global database for a specific from and thru date.
+This query returns the Primary Issue for a company in the Global database for a specific from and thru date
 
 ***********************************************************************************************/
 
