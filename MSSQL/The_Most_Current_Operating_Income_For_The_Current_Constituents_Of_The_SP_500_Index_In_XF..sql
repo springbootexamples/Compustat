@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling The Most Current Operating Income For The Current Constituents Of The SP 500 Index In XF.
+/***********************************************************************************************
+Returns The Most Current Operating Income For The Current Constituents Of The SP 500 Index
 
 Packages Required:
 Core
@@ -24,13 +24,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the most recent Operating Income after Depreciation (OIADP) for the 
-current constituents of the SP 500 Index.
+This query returns the most recent Operating Income after Depreciation (OIADP) for the  current constituents of the SP 500 Index
 
 ***********************************************************************************************/
 
