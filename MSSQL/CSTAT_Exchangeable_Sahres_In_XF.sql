@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling Exchangeable Shares.
+/***********************************************************************************************
+Returns Exchangeable Shares
 
 Packages Required:
 Core
@@ -18,13 +18,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns securities described as Exchangeable Shares in Xpressfeed using the term EXCH in the 
-Security Description (DSCI) data item from the security data group.
+This query returns securities described as Exchangeable Shares in Xpressfeed using the term EXCH in the  Security Description (DSCI) data item from the security data group
 
 ***********************************************************************************************/
 
@@ -39,4 +38,4 @@ FROM security security
 
 WHERE security.dsci LIKE '%EXCH%'
 
-  ORDER BY security.gvkey
+xa0 ORDER BY security.gvkey
