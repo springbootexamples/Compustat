@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling Indices With Constituent Markers.
+/***********************************************************************************************
+Returns Indices With Constituent Markers
 
 Packages Required:
 Core
@@ -19,13 +19,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8,100
 
-These queries return all indices with constituent markers including the start date for when the
-first constituents are available for each respective index.
+These queries return all indices with constituent markers including the start date for when the first constituents are available for each respective index
 
 ***********************************************************************************************/
 
