@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling CFL In XFF.
+/***********************************************************************************************
+Returns CFL
 
 Packages Required:
 Core
@@ -23,17 +23,16 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the Cash Flow for companies using the Compustat packages in Xpressfeed™:
-Note: This query replicates the Cash Flow (CFL) concept in Research Insight.
+This query returns the Cash Flow for companies using the Compustat packages in Xpressfeed: Note: This query replicates the Cash Flow (CFL) concept in Research Insight
 
 ***********************************************************************************************/
 
-SELECT a.gvkey
+SELECTxa0a.gvkey
 
 , a.conm
 
@@ -43,9 +42,9 @@ SELECT a.gvkey
 
 FROM company a
 
-LEFT JOIN co_afnd1 b ON b.gvkey = a.gvkey
+LEFT JOIN co_afnd1 b ONxa0b.gvkey = a.gvkey
 
-WHERE a.gvkey IN ('001078'
+WHERE a.gvkey INxa0('001078'
 
 ,'002285'
 
