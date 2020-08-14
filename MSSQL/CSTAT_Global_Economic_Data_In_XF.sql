@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling Global Economic Data In XF.
+/***********************************************************************************************
+Returns Global Economic Data
 
 Packages Required:
 Core
@@ -19,15 +19,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query uses the economic indicator tables in Compustat to retrieve forecast and historical 
-Gross Domestic Product indicators for the United States in Xpressfeed.
-Note: Uncomment the second query which uses the economic indicator reference table in CSTAT to retrieve 
-descriptive information about the Gross Domestic Product indicators for the United States in Xpressfeed.
+This query uses the economic indicator tables in Compustat to retrieve forecast and historical  Gross Domestic Product indicators for the United States in Xpressfeed. Note: Uncomment the second query which uses the economic indicator reference table in Compustat to retrieve  descriptive information about the Gross Domestic Product indicators for the United States in Xpressfeed
 
 ***********************************************************************************************/
 
