@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling IS And BS Balancing Models For REITs.
+/***********************************************************************************************
+Returns IS And BS Balancing Models For REITs
 
 Packages Required:
 Core
@@ -27,13 +27,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the Income Statement (IS) balancing model for Real Estate Investment Trusts (REITs) in Xpressfeed.
-Note: Uncomment the second query to get the Balance Sheet (BS) balancing model for REITs in Xpressfeed.
+This query returns the Income Statement (IS) balancing model for Real Estate Investment Trusts (REITs) in Xpressfeed. Note: Uncomment the second query to get the Balance Sheet (BS) balancing model for REITs in Xpressfeed
 
 ***********************************************************************************************/
 
