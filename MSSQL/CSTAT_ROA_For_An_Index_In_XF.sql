@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling ROA For An Index.
+/***********************************************************************************************
+Returns ROA For An Index
 
 Packages Required:
 Core
@@ -17,13 +17,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query  returns the Return on Assets (ROA) for the SP 500 Index as of December 31, 2016 
-using the Compustat files in Xpressfeed.
+This query  returns the Return on Assets (ROA) for the SP 500 Index as of December 31, 2016  using the Compustat files in Xpressfeed
 
 ***********************************************************************************************/
 
@@ -39,4 +38,4 @@ FROM idx_ann ia
 
 WHERE gvkeyx = '000003' --- SP 500 Index
 
-AND ia.datadate = '2016-12-31'
+AND ia.datadatexa0= '2016-12-31'
