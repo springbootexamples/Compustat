@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Number Of Companies reporting Annual, Semi-Annual, Or Quarterly Data By Country In XF.
+/***********************************************************************************************
+Returns Number Of Companies Reporting Annual, Semi-Annual, Or Quarterly Data By Country
 
 Packages Required:
 Core
@@ -21,13 +21,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the number of companies in Great Britain that report semi-annual data for the period ending June 30, 2006.
-Note: For Annual Data there is no need for any 'AND co_idesind.rp = ' condition.
+This query returns the number of companies in Great Britain that report semi-annual data for the period ending June 30, 2006. Note: For Annual Data there is no need for any 'AND co_idesind.rp = ' condition
 
 ***********************************************************************************************/
 
