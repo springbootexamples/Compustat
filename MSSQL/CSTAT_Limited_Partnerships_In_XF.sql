@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Limited Partnerships.
+/***********************************************************************************************
+Returns Limited Partnerships
 
 Packages Required:
 Core
@@ -18,15 +18,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query searches for LP as the last 2 letters in the CONM (Company Name) data item from the company 
-data group.
-Note: Uncomment the second query to find Limited Partnerships by searching for LP in the DSCI 
-(Security Description) data item from the security data group.
+This query searches for LP as the last 2 letters in the CONM (Company Name) data item from the company  data group. Note: Uncomment the second query to find Limited Partnerships by searching for LP in the DSCI  (Security Description) data item from the security data group
 
 ***********************************************************************************************/
 
