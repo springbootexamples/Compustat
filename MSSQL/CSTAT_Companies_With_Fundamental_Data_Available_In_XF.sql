@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Number of Companies With Fundamental Data Available.
+/***********************************************************************************************
+Returns Number Of Companies With Fundamental Data Available
 
 Packages Required:
 Core
@@ -22,18 +22,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the GVKEYs and the Company Names for U.S. and Canadian companies with fundamental data.
-Note:To get fundamental data for active companies use: WHERE ( A.costat = A ),
-To get fundamental data for inactive companies use: WHERE ( A.costat = I ).
-To get the number of active and inactive Canadian companies with fundamental data available for the 2012 
-fiscal year use:
-AND ( b.datadate = 6/30/2012
-AND b.datadate = 5/31/2013 )
+This query returns the GVKEYs and the Company Names for U.S. and Canadian companies with fundamental data. Note:To get fundamental data for active companies use: WHERE ( A.costat = A ), To get fundamental data for inactive companies use: WHERE ( A.costat = I ). To get the number of active and inactive Canadian companies with fundamental data available for the 2012  fiscal year use: AND ( b.datadate = 6/30/2012 AND b.datadate = 5/31/2013 )
 
 ***********************************************************************************************/
 
