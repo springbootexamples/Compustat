@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling When Issued Stocks.
+/***********************************************************************************************
+Returns When Issued Stocks
 
 Packages Required:
 Core
@@ -17,12 +17,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns When Issued stocks in Xpressfeed.
+This query returns When Issued stocks in Xpressfeed
 
 ***********************************************************************************************/
 
