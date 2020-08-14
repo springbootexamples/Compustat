@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding FIC Changes Using North America Snapshot
+/***********************************************************************************************
+Returns FIC Changes Using North America Snapshot
 
 Packages Required:
 Snapshot
@@ -18,13 +18,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query finds changes to the ISO Country Code - Incorporation (FIC) in the last 
-20 years using the cscompany table in North America Snapshot.
+This query finds changes to the ISO Country Code - Incorporation (FIC) in the last  20 years using the cscompany table in North America Snapshot
 
 ***********************************************************************************************/
 
