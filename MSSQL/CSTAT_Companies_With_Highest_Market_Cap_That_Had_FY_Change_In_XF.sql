@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling Companies With Highest Market Cap That Had FY Change.
+/***********************************************************************************************
+Returns Companies With Highest Market Cap That Had FY Change
 
 Packages Required:
 Core
@@ -22,13 +22,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the companies with the highest market cap that also had a fiscal-year change
-using the Compustat packages in Xpressfeed.
+This query returns the companies with the highest market cap that also had a fiscal-year change using the Compustat packages in Xpressfeed
 
 ***********************************************************************************************/
 
@@ -38,7 +37,7 @@ SELECT TOP 2 mkvalt
 
 FROM co_adesind a
 
-JOIN co_amkt b ON a.gvkey=b.gvkey
+JOIN co_amkt b ONxa0a.gvkey=b.gvkey
 
 WHERE datafmt != 'SUMM_std'
 
