@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling Companies That Adopted FASB 158.
+/***********************************************************************************************
+Returns Companies That Adopted FASB 158
 
 Packages Required:
 Pension
@@ -19,13 +19,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns companies who adopted SFAS 158 by looking for an AC footnote on Pension
-- Funded Status (PCPPAO_FN) from the aco_pnfnta datagroup.
+This query returns companies who adopted SFAS 158 by looking for an AC footnote on Pension - Funded Status (PCPPAO_FN) from the aco_pnfnta datagroup
 
 ***********************************************************************************************/
 
