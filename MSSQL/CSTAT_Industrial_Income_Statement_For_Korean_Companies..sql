@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Industrial Income Statement For Korean Companies.
+/***********************************************************************************************
+Returns Industrial Income Statement For Korean Companies
 
 Packages Required:
 Core
@@ -25,12 +25,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns an Industrial format Income Statement for companies from Korea.
+This query returns an Industrial format Income Statement for companies from Korea
 
 ***********************************************************************************************/
 
