@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling Historic Company Tickers In XF
+/***********************************************************************************************
+Returns Historic Company Tickers
 
 Packages Required:
 Core
@@ -18,12 +18,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the Compustat historic company tickers from the Corporate Tracker package in Xpressfeed.
+This query returns the Compustat historic company tickers from the Corporate Tracker package in Xpressfeed
 
 ***********************************************************************************************/
 
