@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Segment Items.
+/***********************************************************************************************
+Returns Segment Items
 
 Packages Required:
 Core
@@ -17,12 +17,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns a list of all segment items and their descriptions.
+This query returns a list of all segment items and their descriptions
 
 ***********************************************************************************************/
 
