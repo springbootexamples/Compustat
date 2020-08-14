@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding non MSCI indices.
+/***********************************************************************************************
+Returns Non MSCI Indices
 
 Packages Required:
 Core
@@ -18,16 +18,16 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns non MSCI indices with constituents available in Xpressfeed.
+This query returns non MSCI indices with constituents available in Xpressfeed
 
 ***********************************************************************************************/
 
-SELECT *  
+SELECT * xa0
 
 FROM idx_index
 
