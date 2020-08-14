@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling Current Ratio In XF
+/***********************************************************************************************
+Returns Current Ratio
 
 Packages Required:
 Core
@@ -26,12 +26,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the current ratio quarterly for IBM for the quarter ended March 31, 2008.
+This query returns the current ratio quarterly for IBM for the quarter ended March 31, 2008
 
 ***********************************************************************************************/
 
