@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Business segments for a company.
+/***********************************************************************************************
+Returns Business Segments For A Company
 
 Packages Required:
 Core
@@ -19,15 +19,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query  returns the Company Name, GVKEY, Data Date, Segment Name, and Segment Sales for
-business segments for the entire history of a company in Xpressfeed.
-Note: Uncomment the second query to get the number of all active segments specified per
-segment for a company on each available data date using Compustat packages in Xpressfeed.
+This query  returns the Company Name, GVKEY, Data Date, Segment Name, and Segment Sales for business segments for the entire history of a company in Xpressfeed. Note: Uncomment the second query to get the number of all active segments specified per segment for a company on each available data date using Compustat packages in Xpressfeed
 
 ***********************************************************************************************/
 
