@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling Index Name, GVKEYX, And Ist Date Of Pricing
+/***********************************************************************************************
+Returns Index Name, GVKEYX, And Ist Date Of Pricing
 
 Packages Required:
 Core
@@ -17,12 +17,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the Index Name, GVKEY and the first date that price data was available for the Index.
+This query returns the Index Name, GVKEY and the first date that price data was available for the Index
 
 ***********************************************************************************************/
 
