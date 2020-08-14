@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding First Occurance For Pricing For A Security.
+/***********************************************************************************************
+Returns First Occurence For Pricing For A Security
 
 Packages Required:
 Core
@@ -21,12 +21,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the date of the first occurrence of pricing in the database for a security.
+This query returns the date of the first occurrence of pricing in the database for a security
 
 ***********************************************************************************************/
 
