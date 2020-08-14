@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Quarterly Transparency Data For A Company In XF.
+/***********************************************************************************************
+Returns Quarterly Transparency Data For A Company
 
 Packages Required:
 Core
@@ -31,14 +31,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns transparency data for Cost of Goods Sold Quarterly (COGSQ), 
-Net Sales Quarterly (SALEQ), and Selling, General, and Administrative Expenses Quarterly (XSGAQ) 
-for Wells Fargo  Co (WFC) at September 30, 2007 in Xpressfeed.
+This query returns transparency data for Cost of Goods Sold Quarterly (COGSQ),  Net Sales Quarterly (SALEQ), and Selling, General, and Administrative Expenses Quarterly (XSGAQ)  for Wells Fargo  Co (WFC) at September 30, 2007 in Xpressfeed
 
 ***********************************************************************************************/
 
