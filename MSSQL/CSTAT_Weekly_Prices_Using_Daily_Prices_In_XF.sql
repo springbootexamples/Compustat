@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling Weekley Prices Using Daily Prices.
+/***********************************************************************************************
+Returns Weekly Prices Using Daily Prices
 
 Packages Required:
 Core
@@ -17,12 +17,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the Friday prices for each week using the daily pricing data available for IBM iid 01.
+This query returns the Friday prices for each week using the daily pricing data available for IBM iid 01
 
 ***********************************************************************************************/
 
