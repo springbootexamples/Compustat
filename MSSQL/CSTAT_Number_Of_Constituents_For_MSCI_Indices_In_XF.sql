@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Number of Constituents For MSCI indices.
+/***********************************************************************************************
+Returns Number Of Constituents For MSCI Indices
 
 Packages Required:
 MSCI DM Core Index
@@ -17,7 +17,7 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 100
