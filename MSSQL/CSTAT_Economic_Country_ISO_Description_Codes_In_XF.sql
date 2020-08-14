@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Economic Country ISO Description Codes.
+/***********************************************************************************************
+Returns Economic Country ISO Description Codes
 
 Packages Required:
 Core
@@ -17,14 +17,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-The economic indicator data does not have its own reference table. In order to access the country names 
-for the ISO codes, link to the r_country table.
-This query returns a list of country codes.
+The economic indicator data does not have its own reference table. In order to access the country names  for the ISO codes, link to the r_country table. This query returns a list of country codes
 
 ***********************************************************************************************/
 
