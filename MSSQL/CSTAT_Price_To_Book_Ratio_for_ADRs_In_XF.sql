@@ -1,5 +1,5 @@
-/************************************************************************************************
-Calculating Price-to-book-ratio for ADRs
+/***********************************************************************************************
+Returns Price-To-Book-Ratio For ADRs
 
 Packages Required:
 Core
@@ -18,14 +18,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This formula calculate the price-to-book ratio, also called market-to-book, for American Depositary Receipts (ADRs)
-(PRCCM*CSHOC/ADRRC)/CEQQ
-Note:This query returns the price-to-book ratio for LOreal - ADR in Xpressfeed.
+This formula calculates the price-to-book ratio, also called market-to-book, for American Depositary Receipts (ADRs) (PRCCMCSHOC/ADRRC)/CEQQ Note:This query returns the price-to-book ratio for Loreal - ADR in Xpressfeed
 
 ***********************************************************************************************/
 
