@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling Historical Indx Constituents using the idxcst_his table in XF.
+/***********************************************************************************************
+Returns Historical Index Constituents Using The Idxcst_his Table
 
 Packages Required:
 Core
@@ -20,13 +20,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns all the constituents of the SP 500 (GVKEYX 000003) 
-from March 31, 1964 thru December 31, 1991 in Xpressfeed.
+This query returns all the constituents of the SP 500 (GVKEYX 000003)  from March 31, 1964 thru December 31, 1991 in Xpressfeed
 
 ***********************************************************************************************/
 
@@ -54,4 +53,4 @@ AND idxcst_his.gvkeyx = 000003
 
 AND idxcst_his.[from] = '1964-03-31' 
 
-AND (( idxcst_his.thru = '1991-12-31' OR idxcst_his.thru IS NULL )) 
+AND (( idxcst_his.thru = '1991-12-31' OR idxcst_his.thru IS NULL ))
