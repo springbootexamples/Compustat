@@ -1,5 +1,5 @@
-/************************************************************************************************
-Calculating Dividend Yeild.
+/***********************************************************************************************
+Returns Dividend Yield
 
 Packages Required:
 Core
@@ -19,13 +19,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query calculates dividend yield for IBM as of December 31, 2007
-based on Indicated Annual Dividend Rate - Monthly (DVRATE) and Price-Close Monthly (PRCCM).
+This query calculates dividend yield for IBM as of December 31, 2007 based on Indicated Annual Dividend Rate - Monthly (DVRATE) and Price-Close Monthly (PRCCM)
 
 ***********************************************************************************************/
 
@@ -53,7 +52,7 @@ AND sec_mthdiv . gvkey = sec_mthprc . gvkey
 AND sec_mthdiv . iid = sec_mthprc . iid
 AND sec_mthdiv . datadate = sec_mthprc . datadate 
 AND sec_mthdiv . datadate = '12/31/2007' 
-AND sec_mthdiv . gvkey = 006066  
+AND sec_mthdiv . gvkey = 006066 xa0
 
 
- 
+xa0
