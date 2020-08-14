@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding ETFs And SPDRs
+/***********************************************************************************************
+Returns ETFs And SPDRs
 
 Packages Required:
 Core
@@ -18,12 +18,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query search to return ONLY SPDRs in Xpressfeed.
+This query search to return only SPDRs in Xpressfeed
 
 ***********************************************************************************************/
 
