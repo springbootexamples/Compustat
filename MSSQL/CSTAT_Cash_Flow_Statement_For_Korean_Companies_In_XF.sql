@@ -1,5 +1,5 @@
-/************************************************************************************************
-Calculating Cash Flow Statement For Korean Companies.
+/***********************************************************************************************
+Returns Cash Flow Statement For Korean Companies
 
 Packages Required:
 Core
@@ -27,12 +27,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query  returns a Cash Flow Statement for companies from Korea.
+This query  returns a Cash Flow Statement for companies from Korea
 
 ***********************************************************************************************/
 
