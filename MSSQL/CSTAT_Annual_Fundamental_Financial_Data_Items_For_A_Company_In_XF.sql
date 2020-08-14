@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding annual fundamental financial data items.
+/***********************************************************************************************
+Returns Annual Fundamental Financial Data Items
 
 Packages Required:
 Core
@@ -25,15 +25,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns all of the annual fundamental financial data items for all annual periods 
-for a company in XF.
-Note: Uncomment the second query to return ll data in the Company table for all companies 
-that contain Enron anywhere in the company name (CONM)
+This query returns all of the annual fundamental financial data items for all annual periods  for a company . Note: Uncomment the second query to return ll data in the Company table for all companies  that contain Enron anywhere in the company name (CONM)
 
 ***********************************************************************************************/
 
@@ -56,4 +53,4 @@ ORDER BY a.datadate DESC
 
 ---FROM company company 
 
----WHERE conm LIKE %enron% 
+---WHERE conm LIKE %enron%
