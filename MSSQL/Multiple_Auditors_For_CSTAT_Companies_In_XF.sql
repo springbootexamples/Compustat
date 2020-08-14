@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Multiple Auditors For Companies.
+/***********************************************************************************************
+Returns Multiple Auditors For Companies
 
 Packages Required:
 Core
@@ -18,12 +18,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns all international companies and their auditors on a specific datadate.
+This query returns all international companies and their auditors on a specific datadate
 
 ***********************************************************************************************/
 
@@ -57,4 +57,4 @@ AND co_aaudit.popsrc = 'I'
 AND co_aaudit.datadate = '12/31/2004'
 
 
-  ORDER BY company.conm
+xa0 ORDER BY company.conm
