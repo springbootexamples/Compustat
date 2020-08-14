@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Open Price For Index Constituents.
+/***********************************************************************************************
+Returns Open Price For Index Constituents
 
 Packages Required:
 Core
@@ -17,13 +17,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the Open Price (PRCOD) for the constituents of the SP 500
-Index for December 1, 2016 in Xpressfeed.
+This query returns the Open Price (PRCOD) for the constituents of the SP 500 Index for December 1, 2016 in Xpressfeed
 
 ***********************************************************************************************/
 
