@@ -1,4 +1,4 @@
-/************************************************************************************************
+/***********************************************************************************************
 Determining Primary Issues
 
 Packages Required:
@@ -9,7 +9,7 @@ Universal Identifiers:
 GVKEY
 
 Primary Columns Used:
-gvkey 
+gvkey
 iid
 
 Database_Type:
@@ -19,13 +19,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the primary issue when more than one issue is listed as primary 
-in the Compustat Company table in Xpressfeed.
+This query returns the primary issue when more than one issue is listed as primary  in the Compustat Company table in Xpressfeed
 
 ***********************************************************************************************/
 
