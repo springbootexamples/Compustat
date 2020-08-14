@@ -1,5 +1,5 @@
-/************************************************************************************************
-Calculating Daily TRFD
+/***********************************************************************************************
+Returns Daily TRFD
 
 Packages Required:
 Core
@@ -19,14 +19,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the most recent value for Total Return Factor - 
-Daily (TRFD) using the Compustat database in Xpressfeed.
-Note:Uncomment the second query to return TRFD for a specific datadate.
+This query returns the most recent value for Total Return Factor -  Daily (TRFD) using the Compustat database in Xpressfeed. Note:Uncomment the second query to return TRFD for a specific datadate
 
 ***********************************************************************************************/
 
