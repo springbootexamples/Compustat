@@ -1,5 +1,5 @@
-/************************************************************************************************
-Calculating Debt-To-Equity-Ratio Anuall and quarterly.
+/***********************************************************************************************
+Returns Debt-To-Equity-Ratio Annual And Quarterly
 
 Packages Required:
 Core
@@ -23,13 +23,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query calculates Debt-to-Equity (aka Risk, Gearing or Leverage) ratio Anually.
-Note:Uncomment the second query to return Debt-To-Equity Ratio for Quartely basis.
+This query calculates Debt-to-Equity (aka Risk, Gearing or Leverage) ratio annually. Note:Uncomment the second query to return Debt-To-Equity Ratio for quarterly basis
 
 ***********************************************************************************************/
 
