@@ -1,5 +1,5 @@
-/************************************************************************************************
-Linking MIC TO Stock Exchange.
+/***********************************************************************************************
+Linking MIC To Stock Exchange
 
 Packages Required:
 Xpressfeed Reference
@@ -17,12 +17,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This This query maps Market Identifier Codes (MIC) to Stock Exchange Codes (EXCHG) in Xpressfeed.
+This This query maps Market Identifier Codes (MIC) to Stock Exchange Codes (EXCHG) in Xpressfeed
 
 ***********************************************************************************************/
 
