@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling Changes To Cash Flow Working Capital Changes For FASB  95.
+/***********************************************************************************************
+Returns Changes To Cash Flow Working Capital Changes For FASB  95
 
 Packages Required:
 Core
@@ -25,13 +25,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the components of the Working Capital changes on the Cash Flow Statement 
-for a company using the Compustat® data in Xpressfeed.
+This query returns the components of the Working Capital changes on the Cash Flow Statement for a company using the Compustat data in Xpressfeed
 
 ***********************************************************************************************/
 
