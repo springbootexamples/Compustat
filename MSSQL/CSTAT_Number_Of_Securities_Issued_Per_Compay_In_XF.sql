@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Number of Securities Issued per Company.
+/***********************************************************************************************
+Returns Number Of Securities Issued Per Company
 
 Packages Required:
 Core
@@ -18,12 +18,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the number of securities issued per company.
+This query returns the number of securities issued per company
 
 ***********************************************************************************************/
 
