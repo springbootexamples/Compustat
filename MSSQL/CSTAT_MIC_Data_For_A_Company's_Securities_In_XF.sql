@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling MIC Data For A Company's Securities.
+/***********************************************************************************************
+Returns MIC Data For A Company's Securities
 
 Packages Required:
 Core
@@ -20,13 +20,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns the Market Identifier Code (MIC) and the Stock Exchange Code (EXCHG) for 
-all of a companys equity listings in Xpressfeed.
+This query returns the Market Identifier Code (MIC) and the Stock Exchange Code (EXCHG) for  all of a companys equity listings in Xpressfeed
 
 ***********************************************************************************************/
 
