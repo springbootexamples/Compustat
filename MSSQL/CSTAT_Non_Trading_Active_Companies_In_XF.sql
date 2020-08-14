@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding nonTrading Active Companies.
+/***********************************************************************************************
+Returns NonTrading Active Companies
 
 Packages Required:
 Core
@@ -18,12 +18,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns all companies that are not actively trading on any exchange, but are still active.
+This query returns all companies that are not actively trading on any exchange, but are still active
 
 ***********************************************************************************************/
 
