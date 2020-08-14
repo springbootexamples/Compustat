@@ -1,5 +1,5 @@
-/************************************************************************************************
-Pulling Companies With More Than Specified Number Of Securities. 
+/***********************************************************************************************
+Returns Companies With More Than Specified Number Of Securities
 
 Packages Required:
 Core
@@ -18,12 +18,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query returns all companies that have issued more than 10 securities.
+This query returns all companies that have issued more than 10 securities
 
 ***********************************************************************************************/
 
