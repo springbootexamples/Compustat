@@ -1,5 +1,5 @@
-/************************************************************************************************
-Finding Number Of Companies That went Inactive During A Year
+/***********************************************************************************************
+Returns Number Of Companies That Went Inactive During A Year
 
 Packages Required:
 Core
@@ -21,14 +21,12 @@ Query_Version:
 V1
 
 Query_Added_Date:
-01\07\2020
+01/07/2020
 
 DatasetKey:
 8
 
-This query counts the number of companies from Popsrc D that went inactive in 2007.
-Note: Remove  co_adesind.popsrc = 'D' to count he number of companies from the entire global 
-database that went inactive in 2007.
+This query counts the number of companies from Popsrc D that went inactive in 2007. Note: Remove  co_adesind.popsrc = 'D' to count he number of companies from the entire global ", database that went inactive in 2007
 
 ***********************************************************************************************/
 
