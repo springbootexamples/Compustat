@@ -50,5 +50,5 @@ WHERE co_afnd1.gvkey = 006066
 
 AND co_afnd1.datadate = '12/31/2008' 
 
-AND co_afnd1.datafmt = 'std' xa0
+AND co_afnd1.datafmt = 'std' 
 

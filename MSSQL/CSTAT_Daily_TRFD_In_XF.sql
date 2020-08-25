@@ -37,7 +37,7 @@ WHERE thrudate IS NULL
 
 AND gvkey = 007163
 
-AND iid = 01
+AND iid = '01'
 
 
 

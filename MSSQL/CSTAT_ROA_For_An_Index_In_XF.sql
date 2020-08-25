@@ -38,4 +38,4 @@ FROM idx_ann ia
 
 WHERE gvkeyx = '000003' --- SP 500 Index
 
-AND ia.datadatexa0= '2016-12-31'
+AND ia.datadate= '2016-12-31'

@@ -39,9 +39,8 @@ SELECT s.tic
 
 , AVG ( p.cshtrd ) AS [ average ] 
 
-xa0, SUM ( p.cshtrd ) AS [ total ] 
-
-xa0, COUNT ( p.cshtrd ) AS [ number of days ] 
+, SUM ( p.cshtrd ) AS [ total ] 
+, COUNT ( p.cshtrd ) AS [ number of days ] 
 
 
 FROM sec_dprc p, security s  

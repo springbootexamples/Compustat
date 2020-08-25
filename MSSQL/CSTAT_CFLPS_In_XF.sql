@@ -70,7 +70,7 @@ AND a.consol = c.consol
 
 AND a.datafmt = c.datafmt
 
-WHERE a.gvkey INxa0('006066','005047','134450')
+WHERE a.gvkey IN ('006066','005047','134450')
 
 AND a.datadate = '12/31/2017'
 

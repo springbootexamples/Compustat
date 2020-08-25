@@ -45,5 +45,5 @@ SELECT a.gvkey
 
 FROM co_ifndq a
 
-WHERE a.gvkey = 006066 
+WHERE a.gvkey = '006066' 
 AND a.datadate = '2018-03-31'

@@ -22,7 +22,7 @@ Query_Added_Date:
 DatasetKey:
 8
 
-This query returns the one-year price history for the SP 500 Index from June 3,  2003 through June 2, 2004
+This query returns the one-year price history for the SP 500 Index from June 3, 2003 through June 2, 2004
 
 ***********************************************************************************************/
 
@@ -30,12 +30,13 @@ SELECT p.gvkeyx, p.datadate, p.prccd
 
 FROM idx_daily p
 
-WHERE p.gvkeyx = 000003
+
+WHERE p.gvkeyx = '000003'
 
 
-AND p.datadate = '6/3/2003'
+AND (CAST(p.datadate AS DATE) = '6/3/2003'
 
-AND p.datadate = '6/2/2006'
+OR CAST(p.datadate AS DATE)= '6/2/2004')
 
 
 ORDER BY p.datadate DESC 

@@ -30,9 +30,11 @@ SELECT datadate, COUNT ( * )
 
 FROM sec_dtrt
 
-WHERE datadate = GETDATE ( ) - 30 
+WHERE CAST(datadate AS DATE)  = CAST(DATEADD(DAY, -30, GETDATE())AS DATE)
 
 GROUP BY datadate 
 
-ORDER BY datadate  
+ORDER BY datadate  DESC
+
+
 

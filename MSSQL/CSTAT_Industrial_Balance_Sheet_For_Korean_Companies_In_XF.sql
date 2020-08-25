@@ -130,9 +130,8 @@ AND ca.datafmt = caf2.datafmt
 AND ca.popsrc = caf2.popsrc 
 AND ca.consol = caf2.consol
 
-JOIN company c ON c.gvkey = ca.gvkeyJ
-
-OIN r_giccd r ON r.giccd = c.gsubind
+JOIN company c ON c.gvkey = ca.gvkey
+JOIN r_giccd r ON r.giccd = c.gsubind
 
 WHERE ca.gvkey = '242861'
 AND ca.popsrc = 'I'

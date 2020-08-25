@@ -37,7 +37,7 @@ SELECT TOP 2 mkvalt
 
 FROM co_adesind a
 
-JOIN co_amkt b ONxa0a.gvkey=b.gvkey
+JOIN co_amkt b ON a.gvkey=b.gvkey
 
 WHERE datafmt != 'SUMM_std'
 

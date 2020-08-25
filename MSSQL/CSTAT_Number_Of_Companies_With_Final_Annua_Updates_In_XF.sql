@@ -31,11 +31,11 @@ This query counts the number of final updates for Y07 fiscal-year domestic indus
 
 ***********************************************************************************************/
 
-SELECT COUNT xa0( DISTINCT ( co_adesind.gvkey ) )
+SELECT COUNT ( DISTINCT ( co_adesind.gvkey ) )
 
 FROM co_adesind 
 
-WHERE ( co_adesind.datafmt = std )
+WHERE ( co_adesind.datafmt = 'std' )
 
 
 AND ( co_adesind.popsrc = 'd' )

@@ -46,7 +46,7 @@ SELECT a.gvkey
 
 , CONVERT (DECIMAL (10,3)
 
-, (a.dltt/NULLIF((a.ceq+c.pstk),0))*100) AS LT_Debt_Sharehldrs Eqty
+, (a.dltt/NULLIF((a.ceq+c.pstk),0))*100) AS LT_Debt_Sharehldrs_Eqty
 
 FROM co_afnd1 a
 
@@ -56,7 +56,7 @@ JOIN co_afnd2 c ON a.gvkey = c.gvkey
 AND a.datadate = c.datadate
 AND a.indfmt = c.indfmt
 AND a.popsrc = c.popsrc
-AND a.consol = c.consolxa0xa0 xa0
+AND a.consol = c.consol
 AND a.datafmt = c.datafmt
 
 WHERE a.gvkey IN ('006066'

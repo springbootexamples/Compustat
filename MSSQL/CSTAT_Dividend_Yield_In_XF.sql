@@ -34,7 +34,7 @@ sec_mthdiv . dvrate, sec_mth . ajexm, sec_mthprc . prccm ,
 ( ( ( sec_mthdiv . dvrate / sec_mth . ajexm )/( sec_mthprc . prccm / sec_mth . ajexm ) ) * 100 ) 
 
 
-AS dividend_yieldFROM sec_mth sec_mth
+AS dividend_yield FROM sec_mth sec_mth
 
 
 , sec_mthdiv sec_mthdiv, sec_mthprc sec_mthprc
@@ -52,7 +52,6 @@ AND sec_mthdiv . gvkey = sec_mthprc . gvkey
 AND sec_mthdiv . iid = sec_mthprc . iid
 AND sec_mthdiv . datadate = sec_mthprc . datadate 
 AND sec_mthdiv . datadate = '12/31/2007' 
-AND sec_mthdiv . gvkey = 006066 xa0
+AND sec_mthdiv . gvkey = 006066 
 
 
-xa0

@@ -51,11 +51,11 @@ SELECT c.conml
 
 , cd.acctchgq
 
-, qf1.aqpl1q AS [ Level 1 Asset ] xa0
+, qf1.aqpl1q AS [ Level 1 Asset ] 
 
-xa0, qf1.aol2q AS [ Level 2 Asset ] xa0
+, qf1.aol2q AS [ Level 2 Asset ]
 
-xa0, qf1.aul3q AS [ Level 3 Asset ]
+, qf1.aul3q AS [ Level 3 Asset ]
 
 , qf1.anoq AS [ Fair Value Net Adjustment ]
 

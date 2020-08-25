@@ -32,7 +32,7 @@ This query returns the Cash Flow for companies using the Compustat packages in X
 
 ***********************************************************************************************/
 
-SELECTxa0a.gvkey
+SELECT a.gvkey
 
 , a.conm
 
@@ -42,9 +42,9 @@ SELECTxa0a.gvkey
 
 FROM company a
 
-LEFT JOIN co_afnd1 b ONxa0b.gvkey = a.gvkey
+LEFT JOIN co_afnd1 b ON b.gvkey = a.gvkey
 
-WHERE a.gvkey INxa0('001078'
+WHERE a.gvkey IN('001078'
 
 ,'002285'
 

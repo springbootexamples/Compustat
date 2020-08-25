@@ -31,14 +31,14 @@ This query uses tables in the Compustat Point-in-Time Backtest Package to show o
 SELECT k.gvkey
 , k.datadate
 , MIN ( k.pointdate ) AS pointdate
-, CASE WHEN p.saleqh_dc = 7 THEN NULL
+, CASE WHEN p.saleqh_dc = '7' THEN NULL
 
-xa0 WHEN ( p.saleqh_dc IS NULL 
+ WHEN ( p.saleqh_dc IS NULL 
 
 
-xa0 OR p.saleqh_dc = 2 
+ OR p.saleqh_dc = '2'
 
-  OR p.saleqh_dc = 3 ) 
+  OR p.saleqh_dc = '3' ) 
 
 THEN ISNULL ( p.saleqh, c.saleq )
 

@@ -66,4 +66,4 @@ AND cq1.item = 'cogsq' -- item mnemonic
 AND e.gvkey = '006066'
 AND cq1.datadate = '03/31/2012'
 
-ORDER BYxa0cq1.sequencet
+ORDER BY cq1.sequencet

@@ -57,4 +57,4 @@ AND co_aaudit.popsrc = 'I'
 AND co_aaudit.datadate = '12/31/2004'
 
 
-xa0 ORDER BY company.conm
+ORDER BY company.conm

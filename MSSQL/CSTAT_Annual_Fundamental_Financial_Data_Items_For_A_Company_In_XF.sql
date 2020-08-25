@@ -38,7 +38,7 @@ SELECT a.csho, *FROM co_afnd1 a
 
 
 JOIN co_afnd2 b ON a.gvkey = b.gvkey
-AND a.datadate = b.datadate
+AND CAST(a.datadate AS DATE) = CAST(b.datadate AS DATE)
 AND a.indfmt = b.indfmt
 AND a.datafmt = b.datafmt
 AND a.consol = b.consol

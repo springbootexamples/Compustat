@@ -35,7 +35,7 @@ This query returns Compustat annual transparency notes for Net Sales (SALE), Cos
 
 SELECT e.conm
 
-, cq1.gvkeyxa0
+, cq1.gvkey
 
 , CONVERT(DATE, cq1.datadate, 1) AS datadate
 

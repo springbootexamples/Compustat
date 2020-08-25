@@ -48,7 +48,6 @@ WHERE econiso = 'USA'
 
 ORDER BY datadate DESC
 
-This query:
 
 --SELECT *FROM ecind_desc  WHERE econiso = USA
 

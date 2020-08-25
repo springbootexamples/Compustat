@@ -37,4 +37,4 @@ SELECT sec_idhist.gvkey
 FROM sec_idhist sec_idhist
 
 WHERE ( sec_idhist.gvkey = '009818' )
-AND ( sec_idhist.item = prihistrow )
+AND ( sec_idhist.item = 'prihistrow' )

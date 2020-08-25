@@ -97,7 +97,7 @@ WHERE ad.indfmt = 'INDL'
 
 AND ad.datafmt = 'STD' 
 
-xa0  AND c.gvkey in ( 007267 ) 
+AND c.gvkey in ( 007267 ) 
 
 
 ORDER BY af1.datadate DESC, af1.gvkey
