@@ -51,17 +51,17 @@ SELECT c.conml
 
 , cd.acctchgq
 
-, qf1.aqpl1q AS " Level 1 Asset " 
+, qf1.aqpl1q AS  Level 1 Asset  
 
-, qf1.aol2q AS " Level 2 Asset " 
+, qf1.aol2q AS  Level 2 Asset  
 
-, qf1.aul3q AS " Level 3 Asset "
+, qf1.aul3q AS  Level 3 Asset 
 
-, qf1.anoq AS " Fair Value Net Adjustment "
+, qf1.anoq AS  Fair Value Net Adjustment 
 
-, qf1.tfvaq AS " Total Fair Value Assets "
+, qf1.tfvaq AS  Total Fair Value Assets 
 
-, qf1.tfvceq AS " Fair Value Changes in Earnings "
+, qf1.tfvceq AS  Fair Value Changes in Earnings 
 
 
 FROM co_idesind cd 
