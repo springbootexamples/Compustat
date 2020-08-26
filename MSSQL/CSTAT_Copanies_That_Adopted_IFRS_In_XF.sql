@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Companies That Adopted IFRS 
+Returns Companies That Adopted IFRS
 
 Packages Required:
 Core
