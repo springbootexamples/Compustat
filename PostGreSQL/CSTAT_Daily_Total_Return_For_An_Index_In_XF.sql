@@ -35,20 +35,20 @@ yesterday.datadate,
 today.prccddiv, 
 ( ( today.prccddiv / yesterday.prccddiv ) - 1 ) * 100 dailytotalreturnpct, 
 today.prccd, 
-( ( today.prccd / yesterday.prccd ) - 1 ) * 100 xa0 xa0 xa0 dailypricereturnpct
+( ( today.prccd / yesterday.prccd ) - 1 ) * 100  dailypricereturnpct
 
-FROM idx_daily today ( NOLOCK )
+FROM idx_daily today 
 
-INNER JOIN idx_daily yesterday ( NOLOCK ) 
+INNER JOIN idx_daily yesterday 
 ON today.gvkeyx = yesterday.gvkeyx
 
 WHERE yesterday.datadate = (SELECT Max (datadate)
 
-FROM idx_daily sub ( NOLOCK )
-WHERE sub.gvkeyx = today.gvkeyxxa0
+FROM idx_daily sub 
+WHERE sub.gvkeyx = today.gvkeyx
 
 AND yesterday.prccddiv IS NOT NULL
-AND today.gvkeyx = 000003)
+AND today.gvkeyx = '000003')
 --AND sub.datadate = today.datadate)
 
 ORDER BY today.datadate DESC
