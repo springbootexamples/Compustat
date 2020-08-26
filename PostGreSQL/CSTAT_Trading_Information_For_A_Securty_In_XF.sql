@@ -27,6 +27,7 @@ DatasetKey:
 8
 
 This query  returns the lowest, highest, average, and total daily trading volume including the  number of trading days for Microsoft during 2002
+
 ***********************************************************************************************/
 
 SELECT s.tic 
