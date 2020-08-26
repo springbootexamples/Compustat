@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Dual Listed Companies With Both US And Non-US Security Listings 
+Returns Dual Listed Companies With Both US And Non-US Security Listings
 
 Packages Required:
 Core
