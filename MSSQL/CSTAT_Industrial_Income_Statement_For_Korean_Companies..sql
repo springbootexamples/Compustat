@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Industrial Income Statement For Korean Companies 
+Returns Industrial Income Statement For Korean Companies
 
 Packages Required:
 Core
