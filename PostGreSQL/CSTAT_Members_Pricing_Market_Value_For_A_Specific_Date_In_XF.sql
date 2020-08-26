@@ -29,9 +29,9 @@ This query returns the adjusted close price, common shares outstanding current, 
 do $$
 declare v500MembersThisDate  timestamp;
 begin
-	
-	select  '1/31/2011' into v500MembersThisDate;
-	
+        
+        select  '1/31/2011' into v500MembersThisDate;
+        
 
 
 
@@ -66,5 +66,5 @@ AND sec_dprc.datadate = v500MembersThisDate
 ORDER BY sec_dprc.datadate, sec_dprc.gvkey;
 end $$;
 
-select * from temp_table	
+select * from temp_table        
 
