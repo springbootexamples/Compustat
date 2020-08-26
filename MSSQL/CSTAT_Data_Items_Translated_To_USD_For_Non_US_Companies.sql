@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Data Item Translated To USD For Non-US Companies 
+Returns Data Item Translated To USD For Non-US Companies
 
 Packages Required:
 Core
