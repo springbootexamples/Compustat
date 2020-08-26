@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Frequency Of Dividends Paid 
+Returns Frequency Of Dividends Paid
 
 Packages Required:
 Core
