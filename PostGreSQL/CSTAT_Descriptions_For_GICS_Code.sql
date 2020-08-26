@@ -1,5 +1,5 @@
-/************************************************************************************************
-Returns GICS code description for all level of GICS codes
+/***********************************************************************************************
+Returns GICS Code Description For All Level Of GICS Codes
 
 Packages Required:
 Core
@@ -23,20 +23,19 @@ Query_Added_Date:
 DatasetKey:
 8
 
-The following sample query returns the GICS code description for all level of GICS codes as well as the numeric 
-code in Xpressfeed for a given company(Here INTL BUSINESS MACHINES CORP)
+The following sample query returns the GICS code description for all level of GICS codes as well as the numeric  code in Xpressfeed for a given company(Here INTL BUSINESS MACHINES CORP)
 
 ***********************************************************************************************/
 
 SELECT 
-	a.conm,
-	a.gvkey,
-	b.gicdesc,
-	b.giccd
+        a.conm,
+        a.gvkey,
+        b.gicdesc,
+        b.giccd
 FROM company a, r_giccd b
 WHERE ( a.gsubind = b.giccd
-	OR a.ggroup = b.giccd
-	OR a.gind = b.giccd
-	OR a.ggroup = b.giccd
-	OR a.gsector = b.giccd ) 
-	AND a.gvkey = '006066'
+        OR a.ggroup = b.giccd
+        OR a.gind = b.giccd
+        OR a.ggroup = b.giccd
+        OR a.gsector = b.giccd ) 
+        AND a.gvkey = '006066'
