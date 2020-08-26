@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Dual Listed Companies With Both US And Non-US Security Listings
+Returns Dual Listed Companies With Both US And Non-US Security Listings 
 
 Packages Required:
 Core
@@ -23,8 +23,7 @@ Query_Added_Date:
 DatasetKey:
 8
 
-This query returns all companies that have both an a U.S. security listing (IID of 01) and  
-a non-U.S. security listing (IID of 01C), meaning they are double-followed Canadian companies
+This query returns all companies that have both an a U.S. security listing (IID of 01) and   a non-U.S. security listing (IID of 01C), meaning they are double-followed Canadian companies
 
 ***********************************************************************************************/
 
