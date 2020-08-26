@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Compustat Market Data
+Returns Compustat Market Data 
 
 Packages Required:
 Core
