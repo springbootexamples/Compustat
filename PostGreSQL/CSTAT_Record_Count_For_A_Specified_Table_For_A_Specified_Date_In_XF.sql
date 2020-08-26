@@ -30,7 +30,7 @@ SELECT datadate, COUNT ( * )
 
 FROM sec_dtrt
 
-WHERE datadate = NOW() - interval  '30 day'
+WHERE cast(datadate as date) = cast(NOW() - interval  '30 day' as date)
 
 GROUP BY datadate 
 
