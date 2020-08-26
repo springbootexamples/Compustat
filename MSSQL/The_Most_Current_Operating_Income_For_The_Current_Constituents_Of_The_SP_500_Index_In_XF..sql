@@ -29,7 +29,7 @@ Query_Added_Date:
 DatasetKey:
 8
 
-This query returns the most recent Operating Income after Depreciation (OIADP) for the  current constituents of the SP 500 Index
+This query returns the most recent Operating Income after Depreciation (OIADP) for the  current constituents of the S&P 500 Index
 
 ***********************************************************************************************/
 
