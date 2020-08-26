@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Interim Fundamental Data At The Issue Level
+Returns Interim Fundamental Data At The Issue Level 
 
 Packages Required:
 Core
