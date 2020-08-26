@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Compustat Common Equity
+Returns Compustat Common Equity 
 
 Packages Required:
 Core
