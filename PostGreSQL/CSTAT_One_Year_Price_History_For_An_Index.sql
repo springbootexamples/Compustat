@@ -33,9 +33,9 @@ FROM idx_daily p
 WHERE p.gvkeyx = '000003'
 
 
-AND p.datadate = '6/3/2003'
+AND CAST(p.datadate as date) = '6/3/2003'
 
-AND p.datadate = '6/2/2006'
+AND CAST(p.datadate as date) = '6/2/2006'
 
 
 ORDER BY p.datadate DESC 
