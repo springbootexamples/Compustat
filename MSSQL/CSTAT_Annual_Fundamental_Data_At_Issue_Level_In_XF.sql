@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Annual Fundamental Data At The Issue Level 
+Returns Annual Fundamental Data At The Issue Level
 
 Packages Required:
 Core
