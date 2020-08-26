@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns MIC Data For A Company's Securities 
+Returns MIC Data For A Company's Securities
 
 Packages Required:
 Core
