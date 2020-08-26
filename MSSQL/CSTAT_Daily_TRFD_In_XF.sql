@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Daily TRFD 
+Returns Daily TRFD
 
 Packages Required:
 Core
