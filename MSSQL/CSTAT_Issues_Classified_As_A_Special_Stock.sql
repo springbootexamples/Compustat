@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Compustat Issues Classified As A Special Stock 
+Returns Compustat Issues Classified As A Special Stock
 
 Packages Required:
 Core
