@@ -74,7 +74,7 @@ SELECT aco_pnfnda.gvkey
 
 + coalesce ( aco_pnfnda.praa, 0 ) 
 
-- coalesce ( aco_pnfnda.prbo, 0 ) ) ) * ( 1-0.35 ) as "change_in_shareholders_equity"
+- coalesce ( aco_pnfnda.prbo, 0 ) ) ) * ( 1-0.35 ) as change_in_shareholders_equity
 
 
 FROM aco_pnfnda aco_pnfnda
