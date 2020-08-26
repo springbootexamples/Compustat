@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Companies With More Than Specified Number Of Securities
+Returns Companies With More Than Specified Number Of Securities 
 
 Packages Required:
 Core
