@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Geographic Segments For A Company
+Returns Geographic Segments For A Company 
 
 Packages Required:
 Core
