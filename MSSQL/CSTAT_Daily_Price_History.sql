@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Daily Price History 
+Returns Daily Price History
 
 Packages Required:
 Core
