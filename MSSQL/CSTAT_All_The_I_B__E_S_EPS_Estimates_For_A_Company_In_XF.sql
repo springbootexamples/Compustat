@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns All Of The I/B/E/S EPS Estimates For A Company 
+Returns All Of The I/B/E/S EPS Estimates For A Company
 
 Packages Required:
 Core
