@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Data Item That Have Never Been Restated In Snapshot 
+Returns Data Item That Have Never Been Restated In Snapshot
 
 Packages Required:
 Snapshot
