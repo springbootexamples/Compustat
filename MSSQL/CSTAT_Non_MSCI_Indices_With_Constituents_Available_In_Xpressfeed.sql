@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Non MSCI Indices
+Returns Non MSCI Indices 
 
 Packages Required:
 Core
