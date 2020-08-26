@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Economic Country ISO Description Codes 
+Returns Economic Country ISO Description Codes
 
 Packages Required:
 Core
