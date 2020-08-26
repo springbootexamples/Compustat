@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Indices With Constituent Markers 
+Returns Indices With Constituent Markers
 
 Packages Required:
 Core
