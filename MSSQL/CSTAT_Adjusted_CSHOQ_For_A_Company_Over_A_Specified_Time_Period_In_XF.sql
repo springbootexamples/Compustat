@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Adjusted CSHOQ For A Company Over A Specific Time Period 
+Returns Adjusted CSHOQ For A Company Over A Specific Time Period
 
 Packages Required:
 Core
