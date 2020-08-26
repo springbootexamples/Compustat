@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Companies That Emerged From Bankruptcy
+Returns Companies That Emerged From Bankruptcy 
 
 Packages Required:
 Core
