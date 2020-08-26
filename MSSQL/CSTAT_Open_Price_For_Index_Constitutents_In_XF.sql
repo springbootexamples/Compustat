@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Open Price For Index Constituents 
+Returns Open Price For Index Constituents
 
 Packages Required:
 Core
