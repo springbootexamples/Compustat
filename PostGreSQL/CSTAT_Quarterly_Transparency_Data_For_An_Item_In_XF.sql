@@ -47,7 +47,7 @@ SELECT DISTINCT e.conm
 , cq1.item
 , cq.cogsq -- item mnemonic
 , cq1.operatorc
-, coalesce (cq1.label, d.itemdesc) as "label", cq1.value, cq1.sequencet
+, coalesce (cq1.label, d.itemdesc) as label, cq1.value, cq1.sequencet
 
 FROM company e
 
