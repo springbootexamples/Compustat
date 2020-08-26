@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Industrial Balance Sheet For Korean Companies 
+Returns Industrial Balance Sheet For Korean Companies
 
 Packages Required:
 Core
