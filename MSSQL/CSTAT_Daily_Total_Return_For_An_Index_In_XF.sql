@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Daily Total Return For An Index 
+Returns Daily Total Return For An Index
 
 Packages Required:
 Core
