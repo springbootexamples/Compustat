@@ -38,4 +38,4 @@ FROM security security
 
 WHERE security.dsci LIKE '%EXCH%'
 
-xa0 ORDER BY security.gvkey
+ ORDER BY security.gvkey
