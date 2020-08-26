@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Daily Total Return For A Time Period 
+Returns Daily Total Return For A Time Period
 
 Packages Required:
 Core
