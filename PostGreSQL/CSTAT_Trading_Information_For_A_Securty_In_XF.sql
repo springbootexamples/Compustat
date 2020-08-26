@@ -33,14 +33,14 @@ This query  returns the lowest, highest, average, and total daily trading volume
 SELECT s.tic 
 
 
-, MIN ( p.cshtrd ) AS " lowest " 
+, MIN ( p.cshtrd ) AS  lowest  
 
-, MAX ( p.cshtrd ) AS " highest " 
+, MAX ( p.cshtrd ) AS  highest  
 
-, AVG ( p.cshtrd ) AS " average " 
+, AVG ( p.cshtrd ) AS  average  
 
-, SUM ( p.cshtrd ) AS " total " 
-, COUNT ( p.cshtrd ) AS " number of days " 
+, SUM ( p.cshtrd ) AS  total  
+, COUNT ( p.cshtrd ) AS  number of days  
 
 
 FROM sec_dprc p, security s  
