@@ -1,5 +1,5 @@
-/************************************************************************************************
-Datadate new adjustment factor is applied to given company
+/***********************************************************************************************
+Datadate New Adjustment Factor Is Applied To Given Company
 
 Packages Required:
 Core
@@ -23,7 +23,7 @@ Query_Added_Date:
 DatasetKey:
 8
 
-The following sample returns the datadate that a new adjustment factor is applied for stock splits.
+The following sample returns the datadate that a new adjustment factor is applied for stock splits
 
 ***********************************************************************************************/
 
@@ -43,10 +43,10 @@ CREATE TEMPORARY TABLE temp_x(
 
 insert into temp_x(gvkey, iid, ajexdi, datadate)
 SELECT 
-	gvkey,
-	iid,
-	ajexdi,
-	MIN ( datadate ) AS datadate
+        gvkey,
+        iid,
+        ajexdi,
+        MIN ( datadate ) AS datadate
 
 FROM sec_dprc
 WHERE gvkey = '117768'
@@ -55,12 +55,12 @@ GROUP BY gvkey, iid, ajexdi
 ORDER BY gvkey, iid, MIN ( datadate );
 
 SELECT 
-	a.gvkey,
-	a.iid,
-	a.ajexdi,
-	b.ajexdi,
-	a.datadate,
-	a.ajexdi/b.ajexdi " ajexdi non cum "
+        a.gvkey,
+        a.iid,
+        a.ajexdi,
+        b.ajexdi,
+        a.datadate,
+        a.ajexdi/b.ajexdi  ajexdi non cum 
 FROM temp_x a
 JOIN temp_x b on b.sequence = a.sequence + 1
 
