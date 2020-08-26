@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Cash Flow Statement For Korean Companies 
+Returns Cash Flow Statement For Korean Companies
 
 Packages Required:
 Core
