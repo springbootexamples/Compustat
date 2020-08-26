@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Debt-To-Equity-Ratio Annual And Quarterly 
+Returns Debt-To-Equity-Ratio Annual And Quarterly
 
 Packages Required:
 Core
