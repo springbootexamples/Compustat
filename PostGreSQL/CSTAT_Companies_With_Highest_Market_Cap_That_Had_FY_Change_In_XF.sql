@@ -51,4 +51,4 @@ AND b.YEAR='2018'
 
 ORDER BY b.mkvalt desc
 
-limit 2 
+limit 2
