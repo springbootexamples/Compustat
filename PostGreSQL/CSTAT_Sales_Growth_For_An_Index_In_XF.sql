@@ -25,7 +25,7 @@ Query_Added_Date:
 DatasetKey:
 8,100
 
-This query returns the one-year sales growth for the SP 500 Index as of December 31, 2016  using the Compustat files in Xpressfeed
+This query returns the one-year sales growth for the S&P 500 Index as of December 31, 2016  using the Compustat files in Xpressfeed
 
 ***********************************************************************************************/
 
