@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Number Of Companies With Final Annual Updates 
+Returns Number Of Companies With Final Annual Updates
 
 Packages Required:
 Core
