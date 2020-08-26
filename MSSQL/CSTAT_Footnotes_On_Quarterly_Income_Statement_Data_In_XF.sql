@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns FootNotes On Quarterly Income Statement Data 
+Returns FootNotes On Quarterly Income Statement Data
 
 Packages Required:
 Core
