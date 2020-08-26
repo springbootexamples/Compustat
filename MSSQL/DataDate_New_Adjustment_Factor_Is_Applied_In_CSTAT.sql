@@ -1,5 +1,5 @@
-/************************************************************************************************
-Datadate new adjustment factor is applied to given company
+/***********************************************************************************************
+Datadate New Adjustment Factor Is Applied To Given Company
 
 Packages Required:
 Core
@@ -23,7 +23,7 @@ Query_Added_Date:
 DatasetKey:
 8
 
-The following sample returns the datadate that a new adjustment factor is applied for stock splits.
+The following sample returns the datadate that a new adjustment factor is applied for stock splits
 
 ***********************************************************************************************/
 
@@ -32,11 +32,11 @@ DROP TABLE #x
 GO
 
 SELECT 
-	IDENTITY ( INT, 1, 1 ) AS sequence,
-	gvkey,
-	iid,
-	ajexdi,
-	MIN ( datadate ) AS datadate
+        IDENTITY ( INT, 1, 1 ) AS sequence,
+        gvkey,
+        iid,
+        ajexdi,
+        MIN ( datadate ) AS datadate
 INTO #x
 
 FROM sec_dprc
@@ -48,12 +48,12 @@ ORDER BY gvkey, iid, MIN ( datadate )
 GO 
 
 SELECT 
-	a.gvkey,
-	a.iid,
-	a.ajexdi,
-	b.ajexdi,
-	a.datadate,
-	a.ajexdi/b.ajexdi [ ajexdi non cum ] 
+        a.gvkey,
+        a.iid,
+        a.ajexdi,
+        b.ajexdi,
+        a.datadate,
+        a.ajexdi/b.ajexdi [ ajexdi non cum ] 
 FROM #x a
 JOIN #x b on b.sequence = a.sequence + 1
 
