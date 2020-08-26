@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Number Of Observations For A Data Item 
+Returns Number Of Observations For A Data Item
 
 Packages Required:
 Core
