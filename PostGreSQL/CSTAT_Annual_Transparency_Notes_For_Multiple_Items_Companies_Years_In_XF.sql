@@ -29,7 +29,7 @@ Query_Added_Date:
 DatasetKey:
 8
 
-This query returns Compustat annual transparency notes for Net Sales (SALE), Cost of Goods Sold (COGS), Selling, General and Administrative Expenses (XSGA), Depreciation and Amortization (DP), and  Special Items (SPI) for IBM (GVKEY 006066), McCormick  Co Inc (GVKEY 007146), and SP Global,  Inc.(GVKEY 007163) for any time periods after November 30, 2016 in Xpressfeed
+This query returns Compustat annual transparency notes for Net Sales (SALE), Cost of Goods Sold (COGS), Selling, General and Administrative Expenses (XSGA), Depreciation and Amortization (DP), and  Special Items (SPI) for IBM (GVKEY 006066), McCormick  Co Inc (GVKEY 007146), and S&P Global,  Inc.(GVKEY 007163) for any time periods after November 30, 2016 in Xpressfeed
 
 ***********************************************************************************************/
 
