@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Compustat Banks 
+Returns Compustat Banks
 
 Packages Required:
 Bank
