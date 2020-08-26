@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Dates That The Constituents Of S&P 500 Change 
+Returns Dates That The Constituents Of S&P 500 Change
 
 Packages Required:
 Core
