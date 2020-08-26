@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Daily Translation Rates
+Returns Daily Translation Rates 
 
 Packages Required:
 Core
