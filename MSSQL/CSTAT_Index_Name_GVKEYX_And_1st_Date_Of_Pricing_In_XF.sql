@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Index Name, GVKEYX, And Ist Date Of Pricing 
+Returns Index Name, GVKEYX, And Ist Date Of Pricing
 
 Packages Required:
 Core
