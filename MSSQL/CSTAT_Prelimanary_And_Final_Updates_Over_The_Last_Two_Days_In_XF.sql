@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Preliminary And Final Updates Over The Last Two Days
+Returns Preliminary And Final Updates Over The Last Two Days 
 
 Packages Required:
 Core
