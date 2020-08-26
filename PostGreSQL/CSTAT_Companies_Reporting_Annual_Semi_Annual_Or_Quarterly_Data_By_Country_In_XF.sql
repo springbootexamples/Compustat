@@ -26,7 +26,7 @@ Query_Added_Date:
 DatasetKey:
 8
 
-This query returns the number of companies in Great Britain that report semi-annual data for the period ending June 30, 2006. Note: For Annual Data there is no need for any 'AND co_idesind.rp = ' condition
+This query returns the number of companies in Great Britain that report semi-annual data for the period ending June 30, 2006. Note: For Annual Data there is no need for any 'AND co_idesind.rp = ' condition"]
 
 ***********************************************************************************************/
 
