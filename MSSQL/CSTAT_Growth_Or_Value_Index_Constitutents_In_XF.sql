@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Growth Or Value Index Constituents 
+Returns Growth Or Value Index Constituents
 
 Packages Required:
 Core
