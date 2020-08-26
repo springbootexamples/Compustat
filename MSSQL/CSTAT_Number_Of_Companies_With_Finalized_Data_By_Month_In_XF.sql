@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Number Of Companies With Finalized Data By Month 
+Returns Number Of Companies With Finalized Data By Month
 
 Packages Required:
 Core
