@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Limited Partnerships 
+Returns Limited Partnerships
 
 Packages Required:
 Core
