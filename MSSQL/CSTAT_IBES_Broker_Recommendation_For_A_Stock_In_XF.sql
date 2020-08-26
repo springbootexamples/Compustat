@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns IBES Broker Recommendation For A Stock 
+Returns IBES Broker Recommendation For A Stock
 
 Packages Required:
 Core
