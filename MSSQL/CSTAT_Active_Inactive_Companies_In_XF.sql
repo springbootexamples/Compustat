@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Active/Inactive Companies
+Returns Active/Inactive Companies 
 
 Packages Required:
 Core
