@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Long Term Debt To Shareholders Equity
+Returns Long Term Debt To Shareholders Equity 
 
 Packages Required:
 Core
