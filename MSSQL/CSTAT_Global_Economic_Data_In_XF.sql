@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Global Economic Data
+Returns Global Economic Data 
 
 Packages Required:
 Core
