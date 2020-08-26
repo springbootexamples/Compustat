@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Companies With Amended Financial Statements 
+Returns Companies With Amended Financial Statements
 
 Packages Required:
 Core
