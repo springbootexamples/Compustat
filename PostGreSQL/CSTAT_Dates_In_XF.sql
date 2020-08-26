@@ -22,7 +22,7 @@ Query_Added_Date:
 DatasetKey:
 8
 
-This query used to return a date for a specified period of time back from today. Note: Uncomment the second query to return ate one year earlier than another date,  where a.datadate is the specified date and -1 is the relative reference
+This query used to return a date for a specified period of time back from today. Note: Uncomment the second query to return ate one year earlier than another date,   where a.datadate is the specified date and -1 is the relative reference
 
 ***********************************************************************************************/
 
