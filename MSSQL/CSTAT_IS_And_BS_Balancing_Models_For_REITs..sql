@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns IS And BS Balancing Models For REITs
+Returns IS And BS Balancing Models For REITs 
 
 Packages Required:
 Core
