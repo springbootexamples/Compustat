@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Level 3 Fair Value Transparency 
+Returns Level 3 Fair Value Transparency
 
 Packages Required:
 Core
