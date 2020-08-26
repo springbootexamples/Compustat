@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Compustat Holidays By Country 
+Returns Compustat Holidays By Country
 
 Packages Required:
 Core
