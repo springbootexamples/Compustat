@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Price-To-Book-Ratio For ADRs
+Returns Price-To-Book-Ratio For ADRs 
 
 Packages Required:
 Core
