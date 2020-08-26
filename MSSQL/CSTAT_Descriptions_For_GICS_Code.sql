@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns GICS Code Description For All Level Of GICS Codes 
+Returns GICS Code Description For All Level Of GICS Codes
 
 Packages Required:
 Core
