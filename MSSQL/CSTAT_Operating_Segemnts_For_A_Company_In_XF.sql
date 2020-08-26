@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Operating Segments For A Company
+Returns Operating Segments For A Company 
 
 Packages Required:
 Core
