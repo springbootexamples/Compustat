@@ -1,5 +1,5 @@
-/************************************************************************************************
-Returns Short Interest data 
+/***********************************************************************************************
+Returns Short Interest Data
 
 Packages Required:
 Core
@@ -34,15 +34,15 @@ The following sample query returns Short Interest data using Compustat packages 
 ***********************************************************************************************/
 
 SELECT 
-	COUNT(*), 
-	a.datadate,
-	e.exchgdesc,
-	e.exchgcd
-FROM sec_shortint a 
+        COUNT(*), 
+        a.datadate,
+        e.exchgdesc,
+        e.exchgcd
+FROM sec_shortint axa0
 JOIN sec_idhist b ON b.gvkey = a.gvkey
-	AND b.iid = a.iid
-	AND a.datadate Between b.efffrom AND isnull(b.effthru,'2050-01-01')
-	AND b.item = 'EXCHG'
+        AND b.iid = a.iid
+        AND a.datadate Between b.efffrom AND isnull(b.effthru,'2050-01-01')
+        AND b.item = 'EXCHG'
 JOIN r_ex_codes e ON e.exchgcd = b.itemvalue
 WHERE b.itemvalue = 14 --NASDAQ Only
 
