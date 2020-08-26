@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns NAICS And SIC Codes For A Company Segments
+Returns NAICS And SIC Codes For A Company Segments 
 
 Packages Required:
 Xpressfeed Reference
