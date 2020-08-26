@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns ETFs And SPDRs 
+Returns ETFs And SPDRs
 
 Packages Required:
 Core
