@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns AJEXQ For Current Month 
+Returns AJEXQ For Current Month
 
 Packages Required:
 Core
