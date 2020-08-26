@@ -49,17 +49,17 @@ SELECT c.conml
 
 , ad.acctchg
 
-, af1.lqpl1 AS " Level 1 Liability " 
+, af1.lqpl1 AS  Level 1 Liability  
 
-, af1.lol2 AS " Level 2 Liability "
+, af1.lol2 AS  Level 2 Liability 
 
-, af1.lul3 AS " Level 3 Liablity "
+, af1.lul3 AS  Level 3 Liablity 
 
-, af1.lno AS " Fair Value Net Adjustment "
+, af1.lno AS  Fair Value Net Adjustment 
 
-, af2.tfvl AS " Total Fair Value Liability "
+, af2.tfvl AS  Total Fair Value Liability 
 
-, af2.tfvce AS " Fair Value Changes in Earnings "
+, af2.tfvce AS  Fair Value Changes in Earnings 
 
 FROM co_afnd1 af1 
 
