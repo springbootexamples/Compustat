@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Number Of Companies Reporting Annual, Semi-Annual, Or Quarterly Data By Country 
+Returns Number Of Companies Reporting Annual, Semi-Annual, Or Quarterly Data By Country
 
 Packages Required:
 Core
