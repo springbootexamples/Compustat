@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Number Of Securities Issued Per Company 
+Returns Number Of Securities Issued Per Company
 
 Packages Required:
 Core
