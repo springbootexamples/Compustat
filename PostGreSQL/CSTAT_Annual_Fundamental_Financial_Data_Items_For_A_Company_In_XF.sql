@@ -34,11 +34,11 @@ This query returns all of the annual fundamental financial data items for all an
 
 ***********************************************************************************************/
 
-SELECT a.csho, *FROM co_afnd1 a
+SELECT a.csho, * FROM co_afnd1 a
 
 
 JOIN co_afnd2 b ON a.gvkey = b.gvkey
-AND a.datadate = b.datadate
+AND cast(a.datadate as date) = cast(b.datadate as date)
 AND a.indfmt = b.indfmt
 AND a.datafmt = b.datafmt
 AND a.consol = b.consol
