@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Number Of Companies With A Value Of Market Data Item On A Specific Date
+Returns Number Of Companies With A Value Of Market Data Item On A Specific Date 
 
 Packages Required:
 Core
