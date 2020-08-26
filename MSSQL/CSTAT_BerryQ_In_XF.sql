@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns BerryQ Ratio
+Returns BerryQ Ratio 
 
 Packages Required:
 Core
