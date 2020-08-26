@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns The Most Current Datadate With Quarterly Financials 
+Returns The Most Current Datadate With Quarterly Financials
 
 Packages Required:
 Core
