@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Berry Ratio 
+Returns Berry Ratio
 
 Packages Required:
 Core
