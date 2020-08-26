@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Exchangeable Shares 
+Returns Exchangeable Shares
 
 Packages Required:
 Core
