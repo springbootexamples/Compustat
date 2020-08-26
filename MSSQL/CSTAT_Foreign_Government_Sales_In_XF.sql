@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Foreign Goverment Sales 
+Returns Foreign Goverment Sales
 
 Packages Required:
 Core
