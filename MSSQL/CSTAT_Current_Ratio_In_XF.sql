@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Current Ratio 
+Returns Current Ratio
 
 Packages Required:
 Core
