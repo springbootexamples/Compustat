@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Daily Market Data For A Security 
+Returns Daily Market Data For A Security
 
 Packages Required:
 Core
