@@ -27,7 +27,7 @@ This query returns non MSCI indices with constituents available in Xpressfeed
 
 ***********************************************************************************************/
 
-SELECT * xa0
+SELECT * 
 
 FROM idx_index
 
