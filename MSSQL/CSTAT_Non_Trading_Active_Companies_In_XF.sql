@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns NonTrading Active Companies
+Returns NonTrading Active Companies 
 
 Packages Required:
 Core
