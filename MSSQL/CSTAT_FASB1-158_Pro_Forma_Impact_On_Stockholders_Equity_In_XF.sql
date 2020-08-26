@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns FASB 158 Pro Forma Impact On StockHolders Equity 
+Returns FASB 158 Pro Forma Impact On StockHolders Equity
 
 Packages Required:
 Pension
