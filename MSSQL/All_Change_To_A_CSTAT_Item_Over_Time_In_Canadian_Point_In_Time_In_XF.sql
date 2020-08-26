@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns All Changes To A Compustat Item Over Time In Canadian Point In Time
+Returns All Changes To A Compustat Item Over Time In Canadian Point In Time 
 
 Packages Required:
 Core
