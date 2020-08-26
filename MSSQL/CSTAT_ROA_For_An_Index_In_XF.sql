@@ -22,7 +22,7 @@ Query_Added_Date:
 DatasetKey:
 8
 
-This query  returns the Return on Assets (ROA) for the SP 500 Index as of December 31, 2016  using the Compustat files in Xpressfeed
+This query  returns the Return on Assets (ROA) for the S&P 500 Index as of December 31, 2016  using the Compustat files in Xpressfeed
 
 ***********************************************************************************************/
 
