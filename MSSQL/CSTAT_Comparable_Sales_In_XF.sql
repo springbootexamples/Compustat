@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Comparable Sales 
+Returns Comparable Sales
 
 Packages Required:
 Core
