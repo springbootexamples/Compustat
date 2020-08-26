@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Industrial Format Income Statement, Balance Sheet, And Cash Flow Balancing Models
+Returns Industrial Format Income Statement, Balance Sheet, And Cash Flow Balancing Models 
 
 Packages Required:
 Core
