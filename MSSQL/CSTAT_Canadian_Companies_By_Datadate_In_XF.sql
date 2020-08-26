@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Canadian Companies 
+Returns Canadian Companies
 
 Packages Required:
 Core
