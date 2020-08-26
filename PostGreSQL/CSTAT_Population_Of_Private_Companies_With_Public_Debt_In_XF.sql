@@ -47,7 +47,7 @@ SELECT DISTINCT a.gvkey
 
 FROM company a
 
-, "security"b, co_cotype c
+, securityb, co_cotype c
 
 WHERE a.gvkey = b.gvkey
 
