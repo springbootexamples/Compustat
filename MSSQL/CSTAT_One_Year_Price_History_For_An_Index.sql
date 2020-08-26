@@ -22,7 +22,7 @@ Query_Added_Date:
 DatasetKey:
 8
 
-This query returns the one-year price history for the SP 500 Index from June 3, 2003 through June 2, 2004
+This query returns the one-year price history for the S&P 500 Index from June 3, 2003 through June 2, 2004
 
 ***********************************************************************************************/
 
