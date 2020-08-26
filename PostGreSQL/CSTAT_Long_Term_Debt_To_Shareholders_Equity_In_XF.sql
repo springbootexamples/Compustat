@@ -44,7 +44,7 @@ SELECT a.gvkey
 
 , c.pstk
 
-, CAST ( (a.dltt/NULLIF((a.ceq+c.pstk),0))*100 as DECIMAL (10,3)) AS "LT_Debt_Sharehldrs Eqty"
+, CAST ( (a.dltt/NULLIF((a.ceq+c.pstk),0))*100 as DECIMAL (10,3)) AS LT_Debt_Sharehldrs Eqty
 
 FROM co_afnd1 a
 
