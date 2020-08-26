@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns FIC Changes Using North America Snapshot
+Returns FIC Changes Using North America Snapshot 
 
 Packages Required:
 Snapshot
