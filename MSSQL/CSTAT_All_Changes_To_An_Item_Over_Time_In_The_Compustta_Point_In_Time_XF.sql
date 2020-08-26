@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns All Changes To An Item Over Time In Compustat Point-In-Time
+Returns All Changes To An Item Over Time In Compustat Point-In-Time 
 
 Packages Required:
 Core
