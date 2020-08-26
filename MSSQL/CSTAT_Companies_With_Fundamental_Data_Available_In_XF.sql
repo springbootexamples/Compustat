@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Number Of Companies With Fundamental Data Available
+Returns Number Of Companies With Fundamental Data Available 
 
 Packages Required:
 Core
