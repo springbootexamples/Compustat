@@ -24,7 +24,7 @@ Query_Added_Date:
 DatasetKey:
 8
 
-This query returns the dates that a company was a constituent of an index along with the name of the  index it was a member of
+This query returns the dates that a company was a constituent of an index along with the name of the index it was a member of
 
 ***********************************************************************************************/
 
@@ -35,7 +35,7 @@ FROM idxcst_his a
 
 JOIN idx_index b ON a.gvkeyx=b.gvkeyx 
 
-WHERE a.gvkey = '012691'
+WHERE a.gvkey = '005047'
 AND IID = '01' 
 
 ORDER BY a.THRU DESC 
