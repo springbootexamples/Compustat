@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Major Index Constituents 
+Returns Major Index Constituents
 
 Packages Required:
 Core
