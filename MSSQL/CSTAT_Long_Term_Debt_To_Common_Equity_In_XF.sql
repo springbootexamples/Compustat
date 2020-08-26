@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Long Term Debt To Common Equity
+Returns Long Term Debt To Common Equity 
 
 Packages Required:
 Core
