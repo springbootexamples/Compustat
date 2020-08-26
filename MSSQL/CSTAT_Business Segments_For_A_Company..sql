@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Business Segments For A Company 
+Returns Business Segments For A Company
 
 Packages Required:
 Core
