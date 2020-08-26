@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Number Of Companies In Annual Or Monthly Files
+Returns Number Of Companies In Annual Or Monthly Files 
 
 Packages Required:
 Core
