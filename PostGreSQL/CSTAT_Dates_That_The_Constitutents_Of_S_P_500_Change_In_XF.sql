@@ -22,7 +22,7 @@ Query_Added_Date:
 DatasetKey:
 8
 
-This query returns the dates that the constituents of the SP 500 Index change using the Compustat packages in Xpressfeed
+This query returns the dates that the constituents of the S&P 500 Index change using the Compustat packages in Xpressfeed
 
 ***********************************************************************************************/
 
