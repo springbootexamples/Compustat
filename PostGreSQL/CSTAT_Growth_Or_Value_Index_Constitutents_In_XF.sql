@@ -66,7 +66,7 @@ AND s.iid = sdp.iid
 
 AND s.gvkey = c.gvkey  
 
-AND sdp.datadate = ic."from"  
+AND sdp.datadate = ic.from  
 
 AND ( sdp.datadate= ic.thru OR ic.thru IS NULL )  
 
