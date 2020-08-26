@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Number Of Constituents For MSCI Indices 
+Returns Number Of Constituents For MSCI Indices
 
 Packages Required:
 MSCI DM Core Index
