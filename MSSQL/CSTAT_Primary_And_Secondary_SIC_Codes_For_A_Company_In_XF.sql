@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Primary And Secondary SIC Codes For A Company
+Returns Primary And Secondary SIC Codes For A Company 
 
 Packages Required:
 Xpressfeed Reference
