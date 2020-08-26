@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Companies Who Report Cash Flows Using Direct Method Statement 
+Returns Companies Who Report Cash Flows Using Direct Method Statement
 
 Packages Required:
 Core
