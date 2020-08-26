@@ -1,14 +1,18 @@
 /***********************************************************************************************
-Returns Weekly Prices Using Daily Prices
+Returns Trading Information For A Security
 
 Packages Required:
 Core
+Core 2
+Core History
 
 Universal Identifiers:
 GVKEY
 
 Primary Columns Used:
+datadate
 gvkey
+iid
 
 Database_Type:
 POSTGRESQL
@@ -22,37 +26,32 @@ Query_Added_Date:
 DatasetKey:
 8
 
-This query returns the Friday prices for each week using the daily pricing data available for IBM iid 01
-
+This query  returns the lowest, highest, average, and total daily trading volume including the  number of trading days for Microsoft during 2002
 ***********************************************************************************************/
 
-SELECT gvkey
-
-, iid
-
-, datadate
-
-, curcdd
-
-, adrrc
-
-, ajexdi
-
-, prccd
-
-, prcstd
-
-, qunit
+SELECT s.tic 
 
 
-FROM sec_dprc
+, MIN ( p.cshtrd ) AS " lowest " 
 
-WHERE gvkey = '006066'
+, MAX ( p.cshtrd ) AS " highest " 
+
+, AVG ( p.cshtrd ) AS " average " 
+
+, SUM ( p.cshtrd ) AS " total " 
+, COUNT ( p.cshtrd ) AS " number of days " 
 
 
-AND iid = '01'
+FROM sec_dprc p, security s  
 
-AND DATE_PART ( 'dow',datadate ) + 1 = 6
+WHERE p.gvkey = s.gvkey  
 
 
-ORDER BY datadate DESC
+AND s.iid = p.iid  
+
+AND ( ( s.tic = 'MSFT' ) 
+
+AND ( p.datadate = '2002-12-31' ) ) 
+
+
+GROUP BY s.tic
