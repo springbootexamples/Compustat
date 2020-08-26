@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Companies With Preferred Stock And Without Common
+Returns Companies With Preferred Stock And Without Common 
 
 Packages Required:
 Core
