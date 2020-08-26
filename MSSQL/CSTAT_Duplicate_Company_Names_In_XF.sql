@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Duplicate Company Names 
+Returns Duplicate Company Names
 
 Packages Required:
 Core
