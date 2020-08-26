@@ -51,17 +51,17 @@ SELECT c.conml
 
 , cd.acctchgq
 
-, qf1.lqpl1q AS " Level 1 Liability "
+, qf1.lqpl1q AS  Level 1 Liability 
 
-, qf1.lol2q AS " Level 2 Liability "
+, qf1.lol2q AS  Level 2 Liability 
 
-, qf1.lul3q AS " Level 3 Liability "
+, qf1.lul3q AS  Level 3 Liability 
 
-, qf1.lnoq AS " Fair Value Net Adjustment "
+, qf1.lnoq AS  Fair Value Net Adjustment 
 
-, qf1.tfvlq AS " Total Fair Value Liability "
+, qf1.tfvlq AS  Total Fair Value Liability 
 
-, qf1.tfvceq AS " Fair Value Changes in Earnings "
+, qf1.tfvceq AS  Fair Value Changes in Earnings 
 
 
 FROM co_idesind cd 
