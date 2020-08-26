@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Quarterly Enterprise Value For A Company
+Returns Quarterly Enterprise Value For A Company 
 
 Packages Required:
 Core
