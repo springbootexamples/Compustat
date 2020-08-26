@@ -22,7 +22,7 @@ Query_Added_Date:
 DatasetKey:
 8
 
-This query returns the adjusted close price, common shares outstanding current,  adjusted common shares outstanding current, ticker symbol, and the market value for  members of the SP 500 Index on a specific date in Xpressfeed
+This query returns the adjusted close price, common shares outstanding current,  adjusted common shares outstanding current, ticker symbol, and the market value for  members of the S&P 500 Index on a specific date in Xpressfeed
 
 ***********************************************************************************************/
 
