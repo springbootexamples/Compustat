@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Members, Pricing And Market Value For A Specific Date
+Returns Members, Pricing And Market Value For A Specific Date 
 
 Packages Required:
 Core
