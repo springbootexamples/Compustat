@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns EXCHANGETIER 
+Returns EXCHANGETIER
 
 Packages Required:
 Xpressfeed Reference
