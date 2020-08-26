@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Adjusted Dividends And IID For Specific Datadates 
+Returns Adjusted Dividends And IID For Specific Datadates
 
 Packages Required:
 Core
