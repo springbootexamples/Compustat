@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Fortune 1000/Fortune 500 Companies By Rank
+Returns Fortune 1000/Fortune 500 Companies By Rank 
 
 Packages Required:
 Core
