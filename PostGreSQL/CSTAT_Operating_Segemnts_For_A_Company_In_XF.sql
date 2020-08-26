@@ -28,7 +28,7 @@ This query returns all operating segments for ALLIS-CHALMERS ENERGY INC as of 12
 ***********************************************************************************************/
 
 SELECT c.conm
-, CAST (  n.datadate as date ) AS " datadate "
+, CAST (  n.datadate as date ) AS  datadate 
 , n.stype
 , n.sid
 , n.ranks
