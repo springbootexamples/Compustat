@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Active Companies That Have Filed Bankruptcy 
+Returns Active Companies That Have Filed Bankruptcy
 
 Packages Required:
 Core
