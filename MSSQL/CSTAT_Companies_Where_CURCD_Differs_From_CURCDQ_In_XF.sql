@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Companies Where CURCD Differs From CURCDQ
+Returns Companies Where CURCD Differs From CURCDQ 
 
 Packages Required:
 Core
