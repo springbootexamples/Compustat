@@ -25,7 +25,7 @@ Query_Added_Date:
 DatasetKey:
 8,100
 
-This query returns returns Price-to-Earnings ratio (PE), Price-to-Book (Book Value per Share) , and Price-to-Sales (Price/Sales) for the SP 500 Index in Xpressfeed
+This query returns returns Price-to-Earnings ratio (PE), Price-to-Book (Book Value per Share) , and Price-to-Sales (Price/Sales) for the S&P 500 Index in Xpressfeed
 
 ***********************************************************************************************/
 
