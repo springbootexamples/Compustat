@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Company Level Notes 
+Returns Company Level Notes
 
 Packages Required:
 Core
