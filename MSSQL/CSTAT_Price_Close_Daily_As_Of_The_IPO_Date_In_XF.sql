@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Price Close Daily 
+Returns Price Close Daily
 
 Packages Required:
 Core
