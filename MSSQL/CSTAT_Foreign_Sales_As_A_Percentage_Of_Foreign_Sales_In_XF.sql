@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Foreign Sales As A Percentage Of Total Sales 
+Returns Foreign Sales As A Percentage Of Total Sales
 
 Packages Required:
 Core
