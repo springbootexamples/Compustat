@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Gross Margin(Annually And Quarterly)
+Returns Gross Margin(Annually And Quarterly) 
 
 Packages Required:
 Core
