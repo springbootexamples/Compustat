@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns MSCI Index Returns(Daily) 
+Returns MSCI Index Returns(Daily)
 
 Packages Required:
 MSCI DM Core Constituent Daily (Legacy)
