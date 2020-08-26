@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns One Year Price History For An Index
+Returns One Year Price History For An Index 
 
 Packages Required:
 Core
