@@ -25,7 +25,7 @@ Query_Added_Date:
 DatasetKey:
 8,100
 
-This query calculates the daily total return and daily price return for the  SP 500 Index from the current date, as far back as data is available  for Index Value - Total Return - Dividends (PRCCDDIV) and Index Value - Price (PRCCD):
+This query calculates the daily total return and daily price return for the  S&P 500 Index from the current date, as far back as data is available  for Index Value - Total Return - Dividends (PRCCDDIV) and Index Value - Price (PRCCD):
 
 ***********************************************************************************************/
 
