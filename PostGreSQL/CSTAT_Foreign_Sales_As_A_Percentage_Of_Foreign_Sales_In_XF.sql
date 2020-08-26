@@ -39,15 +39,15 @@ SELECT c.conm
 
 , t.snms 
 
-, v.sales AS " Net Sales "
+, v.sales AS  Net Sales 
 
-, s.sale AS " Company Sales "
+, s.sale AS  Company Sales 
 
 , t.datadate
 
 , c.gvkey
 
-, ( v.sales/s.sale )*100 AS " Percent of Foreign "
+, ( v.sales/s.sale )*100 AS  Percent of Foreign 
 
 , s.datafmt
 
