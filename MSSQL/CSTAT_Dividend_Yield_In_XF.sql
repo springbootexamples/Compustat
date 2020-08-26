@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Dividend Yield 
+Returns Dividend Yield
 
 Packages Required:
 Core
