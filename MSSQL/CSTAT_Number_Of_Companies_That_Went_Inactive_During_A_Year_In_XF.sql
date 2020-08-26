@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Number Of Companies That Went Inactive During A Year 
+Returns Number Of Companies That Went Inactive During A Year
 
 Packages Required:
 Core
