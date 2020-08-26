@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Annual Fundamental Financial Data Items 
+Returns Annual Fundamental Financial Data Items
 
 Packages Required:
 Core
