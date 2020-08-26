@@ -42,5 +42,3 @@ JOIN r_ex_codes c ON a . exchg = c . exchgcd
 WHERE a . gvkey = '010846'
 
 ORDER BY a . iid , a . effdate 
-
-xa0
