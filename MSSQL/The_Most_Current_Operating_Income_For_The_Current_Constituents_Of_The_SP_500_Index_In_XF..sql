@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns The Most Current Operating Income For The Current Constituents Of The SP 500 Index
+Returns The Most Current Operating Income For The Current Constituents Of The S&P 500 Index
 
 Packages Required:
 Core
