@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Historical Index Constituents Using The Idxcst_his Table
+Returns Historical Index Constituents Using The Idxcst_his Table 
 
 Packages Required:
 Core
