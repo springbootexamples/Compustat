@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Historic Company Tickers
+Returns Historic Company Tickers 
 
 Packages Required:
 Core
