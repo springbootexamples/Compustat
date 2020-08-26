@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Data Availability For A Particular Index
+Returns Data Availability For A Particular Index 
 
 Packages Required:
 Core
