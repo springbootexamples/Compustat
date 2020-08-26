@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Companies That Adopted FASB 158 
+Returns Companies That Adopted FASB 158
 
 Packages Required:
 Pension
