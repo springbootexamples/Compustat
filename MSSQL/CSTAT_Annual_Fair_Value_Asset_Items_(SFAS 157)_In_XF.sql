@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Annual Fair Value Asset Items 
+Returns Annual Fair Value Asset Items
 
 Packages Required:
 Core
