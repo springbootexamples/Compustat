@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Compustat Product Lines For A Company
+Returns Compustat Product Lines For A Company 
 
 Packages Required:
 Core
