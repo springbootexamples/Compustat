@@ -22,7 +22,7 @@ Query_Added_Date:
 DatasetKey:
 8
 
-This query returns the Open Price (PRCOD) for the constituents of the SP 500 Index for December 1, 2016 in Xpressfeed
+This query returns the Open Price (PRCOD) for the constituents of the S&P 500 Index for December 1, 2016 in Xpressfeed
 
 ***********************************************************************************************/
 
