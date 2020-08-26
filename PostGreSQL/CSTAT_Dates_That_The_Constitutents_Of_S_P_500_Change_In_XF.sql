@@ -34,7 +34,7 @@ SELECT c.gvkey
 
 , s.dsci
 
-, a."from" AS DateAdded
+, a.from AS DateAdded
 
 , a.thru AS DateRemoved
 
