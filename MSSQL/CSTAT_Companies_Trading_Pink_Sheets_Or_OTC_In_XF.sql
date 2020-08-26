@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Companies Trading Pink Sheets Or OTC 
+Returns Companies Trading Pink Sheets Or OTC
 
 Packages Required:
 Core
