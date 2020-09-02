@@ -26,7 +26,7 @@ Query_Added_Date:
 DatasetKey:
 8
 
-Because there is so much daily history, it is recomended to input a datadate range or the query  will take a long time to run. To pull the enitre history, remove and sec_dprc.datadate = 12/31/2008  from the query
+Because there is so much daily history, it is recommended to input a datadate range or the query  will take a long time to run. To pull the entire history, remove and sec_dprc.datadate = 12/31/2008  from the query
 
 ***********************************************************************************************/
 
