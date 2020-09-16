@@ -44,7 +44,7 @@ SELECT i.conm
 FROM idx_index i 
 
 
-, idxcst_his ic 
+, indexcst_his ic 
 
 , company c 
 
@@ -66,9 +66,9 @@ AND s.iid = sdp.iid
 
 AND s.gvkey = c.gvkey  
 
-AND sdp.datadate = ic.[from]  
+AND sdp.datadate = ic.[fromdate]  
 
-AND ( sdp.datadate= ic.thru OR ic.thru IS NULL )  
+AND ( sdp.datadate= ic.thrudate OR ic.thrudate IS NULL )  
 
 AND ( ic.gvkeyx = 026113 OR ic.gvkeyx = 026114 )  
 
