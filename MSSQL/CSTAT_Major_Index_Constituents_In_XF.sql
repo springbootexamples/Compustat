@@ -29,88 +29,53 @@ For the CURRENT constituents of the major indexes: This example queries the idxc
 
 SELECT ic.gvkey, c.conm 
 
-FROM company c, idxcst_his ic 
+FROM company c, indexcst_his ic 
 
 WHERE ic.gvkey = c.gvkey  
 
 
 AND ( ( ic.gvkeyx = '000003')  
 
-AND ( ic.thru IS NULL ) ) 
+AND ( ic.thrudate IS NULL ) ) 
 
 
 ORDER BY c.conm 
 
 /***
-
 SELECT gvkey 
-
 , iid 
-
 , datadate 
-
 , indexid 
-
 , conmx 
-
 , contype 
-
 , conval 
-
 , cusipx 
-
 , exchgx 
-
 , ticx 
-
-
 FROM spidx_cst 
-
 WHERE ( indexid = '500' )  AND ( datadate = '2001-1-31' ) 
-
 ORDER BY conmx 
-
 ***/
 
 
 /****
-
 SELECT sec_mth.gvkey 
-
-
 , sec_mth.datadate 
-
 , sec_mth.spmim 
-
-
 FROM sec_mth sec_mth 
-
 WHERE ( sec_mth.datadate = '2006-01-31 00:00:00' )  AND ( sec_mth.spmim = '10' ) 
-
 ORDER BY sec_mth.gvkey 
-
 ****/
 
 
 /***
-
 SELECT sec_mth.gvkey 
-
 , sec_mth.datadate 
-
 , sec_mth.spmim 
-
-
 FROM sec_mth sec_mth 
-
 WHERE ( sec_mth.spmim = '10' )  AND ( sec_mth.datadate = '1978-12-31' )  
-
-
 OR ( sec_mth.spmim = '40' )  AND ( sec_mth.datadate = xa0 '1978-12-31' )  
-
 OR ( sec_mth.spmim = '49' )  AND ( sec_mth.datadate = xa0 '1978-12-31' )  
-
 OR ( sec_mth.spmim = '60' )  AND ( sec_mth.datadate = '1978-12-31'  ) 
-
 ****/
 
