@@ -30,13 +30,9 @@ SELECT p.gvkeyx, p.datadate, p.prccd
 
 FROM idx_daily p
 
-
 WHERE p.gvkeyx = '000003'
 
-
-AND (CAST(p.datadate AS DATE) = '6/3/2003'
-
-OR CAST(p.datadate AS DATE)= '6/2/2004')
+and CAST(p.datadate as date) BETWEEN '06/03/2003' and '06/02/2006'
 
 
-ORDER BY p.datadate DESC 
+ORDER BY p.datadate DESC
