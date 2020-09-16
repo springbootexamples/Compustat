@@ -37,10 +37,10 @@ SELECT c.conm
 
 , idxcst_his.gvkeyx
 
-,idxcst_his.thru 
+,idxcst_his.thrudate
 
 
-FROM idxcst_his idxcst_his 
+FROM indexcst_his idxcst_his 
 
 
 , company c 
@@ -51,6 +51,6 @@ WHERE c.gvkey = idxcst_his.gvkey
 
 AND idxcst_his.gvkeyx = 000003
 
-AND idxcst_his.[from] = '1964-03-31' 
+AND idxcst_his.[fromdate] = '1964-03-31' 
 
-AND (( idxcst_his.thru = '1991-12-31' OR idxcst_his.thru IS NULL ))
+AND (( idxcst_his.thrudate = '1991-12-31' OR idxcst_his.thrudate IS NULL ))
