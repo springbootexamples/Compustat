@@ -31,26 +31,26 @@ This query returns all the constituents of the S&P 500 (GVKEYX 000003)  from Mar
 
 SELECT c.conm 
 
-, idxcst_his.gvkey
+, indexcst_his.gvkey
 
-, idxcst_his.iid
+, indexcst_his.iid
 
-, idxcst_his.gvkeyx
+, indexcst_his.gvkeyx
 
-,idxcst_his.thru 
+,indexcst_his.thrudate 
 
 
-FROM idxcst_his idxcst_his 
+FROM indexcst_his indexcst_his 
 
 
 , company c 
 
 
-WHERE c.gvkey = idxcst_his.gvkey 
+WHERE c.gvkey = indexcst_his.gvkey 
 
 
-AND idxcst_his.gvkeyx = '000003'
+AND indexcst_his.gvkeyx = '000003'
 
-AND idxcst_his.from = '1964-03-31' 
+AND indexcst_his.fromdate = '1964-03-31' 
 
-AND (( idxcst_his.thru = '1991-12-31' OR idxcst_his.thru IS NULL ))
+AND (( indexcst_his.thrudate = '1991-12-31' OR indexcst_his.thrudate IS NULL ))
