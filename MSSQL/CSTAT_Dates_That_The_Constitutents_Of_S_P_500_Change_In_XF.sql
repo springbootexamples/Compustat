@@ -34,11 +34,11 @@ SELECT c.gvkey
 
 , s.dsci
 
-, a.[from] AS DateAdded
+, a.fromdate AS DateAdded
 
-, a.thru AS DateRemoved
+, a.thrudate AS DateRemoved
 
-FROM idxcst_his a
+FROM indexcst_his a
 
 JOIN SECURITY s ON s.gvkey = a.gvkey AND s.iid = a.iid
 
