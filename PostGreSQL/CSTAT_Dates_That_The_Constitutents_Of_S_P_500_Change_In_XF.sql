@@ -20,7 +20,7 @@ Query_Added_Date:
 01/07/2020
 
 DatasetKey:
-8
+8,100
 
 This query returns the dates that the constituents of the S&P 500 Index change using the Compustat packages in Xpressfeed
 
