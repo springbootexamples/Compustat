@@ -30,7 +30,7 @@ These queries return all indices with constituent markers including the start da
 
 SELECT ( idxcst_his.gvkeyx )
 
-, MIN ( idxcst_his.[from]) AS startdate
+, MIN ( idxcst_his.from) AS startdate
 
 , idx_index.conm
 
