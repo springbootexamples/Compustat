@@ -38,30 +38,30 @@ SELECT company.gvkey
 
 , sec_dprc.prcod
 
-, idxcst_his.gvkeyx
+, indexcst_his.gvkeyx
 
-, idxcst_his.thru 
+, indexcst_his.thrudate
 
 
 FROM company
 
-, idxcst_his
+, indexcst_his
 
 , sec_dprc
 
 , security 
 
 
-WHERE company.gvkey = idxcst_his.gvkey 
+WHERE company.gvkey = indexcst_his.gvkey 
 
 
 AND company.gvkey = sec_dprc.gvkey
 AND company.gvkey = security.gvkey
-AND idxcst_his.gvkey = sec_dprc.gvkey
-AND idxcst_his.gvkey = security.gvkey
-AND idxcst_his.iid = sec_dprc.iid
-AND idxcst_his.iid = security.iid
+AND indexcst_his.gvkey = sec_dprc.gvkey
+AND indexcst_his.gvkey = security.gvkey
+AND indexcst_his.iid = sec_dprc.iid
+AND indexcst_his.iid = security.iid
 AND sec_dprc.gvkey = security.gvkey
 AND sec_dprc.iid = security.iid
-AND ( ( sec_dprc.datadate = '2016-12-1' )AND ( idxcst_his.gvkeyx = '000003' ) AND ( idxcst_his.thru IS NULL ) ) 
+AND ( ( sec_dprc.datadate = '2016-12-1' )AND ( indexcst_his.gvkeyx = '000003' ) AND ( indexcst_his.thrudate IS NULL ) ) 
 
