@@ -28,6 +28,7 @@ This query returns the constituents of the SP/Barra 500 Growth as of July 29, 20
 
 ***********************************************************************************************/
 
+
 SELECT i.conm 
 
 , c.conm 
@@ -38,13 +39,13 @@ SELECT i.conm
 
 , sdp.prccd 
 
-, sdp.ajexdi 
+, sdp.ajexdi
 
 
 FROM idx_index i 
 
 
-, idxcst_his ic 
+, indexcst_his ic 
 
 , company c 
 
@@ -66,11 +67,11 @@ AND s.iid = sdp.iid
 
 AND s.gvkey = c.gvkey  
 
-AND sdp.datadate = ic.from  
+AND sdp.datadate = ic.fromdate
 
-AND ( sdp.datadate= ic.thru OR ic.thru IS NULL )  
+AND ( sdp.datadate= ic.thrudate OR ic.thrudate IS NULL )  
 
-AND ( ic.gvkeyx = '026113' OR ic.gvkeyx = '026114' )  
+AND ( ic.gvkeyx = '026113' OR ic.gvkeyx = '026114' OR ic.gvkeyx = '150912')   -- 150912 S&P Euro Plus Index
 
 AND sdp.datadate = '2005-12-19'
 
