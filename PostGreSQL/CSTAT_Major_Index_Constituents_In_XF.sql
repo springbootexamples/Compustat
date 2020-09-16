@@ -23,7 +23,7 @@ Query_Added_Date:
 DatasetKey:
 8
 
-For the CURRENT constituents of the major indexes: This example queries the idxcst_his data group to return the current constituents of the S&P 500 Index
+For the CURRENT constituents of the major indexes: This example queries the indexcst_his data group to return the current constituents of the S&P 500 Index
 
 ***********************************************************************************************/
 
