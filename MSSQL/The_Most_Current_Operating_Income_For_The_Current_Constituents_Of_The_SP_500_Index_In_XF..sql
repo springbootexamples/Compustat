@@ -42,8 +42,8 @@ INNER JOIN ( SELECT a.gvkey, MAX ( datadate ) AS maxdate
 FROM co_afnd2 a INNER JOIN
 
 ( SELECT gvkey
-FROM idxcst_his
-WHERE THRU IS NULL AND GVKEYX = 000003 ) i ON a.gvkey = i.gvkey
+FROM indexcst_his
+WHERE THRUdate IS NULL AND GVKEYX = 000003 ) i ON a.gvkey = i.gvkey
 
 WHERE a.INDFMT = 'INDL'
 
