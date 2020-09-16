@@ -54,7 +54,7 @@ select
     r1.prccd,
     r1.ajexdi,
     r1.trfd,
-    (((((r1.PRCCD1.AJEXDI)*ISNULL( r1.TRFD,1))/((r2.PRCCD2.AJEXDI)*ISNULL(r2.TRFD,1)))-1)*100)AS TotalReturn
+    (((((r1.AJEXDI)*ISNULL( r1.TRFD,1))/((r2.AJEXDI)*ISNULL(r2.TRFD,1)))-1)*100)AS TotalReturn
 from 
     retData r1
 join retData r2
