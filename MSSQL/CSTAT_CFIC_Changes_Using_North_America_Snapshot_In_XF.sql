@@ -48,7 +48,7 @@ JOIN cscompany c2 ( NOLOCK ) ON c1.gvkey = c2.gvkey
 AND c1.effdate = DATEADD ( SS, 1, c2.thrudate )
 JOIN x ON x.gvkey = c1.gvkey
 
-WHERE c1.fic  c2.fic
+WHERE c1.fic = c2.fic
 
 UNION
 
