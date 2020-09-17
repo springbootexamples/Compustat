@@ -22,7 +22,7 @@ Query_Added_Date:
 DatasetKey:
 8
 
-This query returns the adjusted close price, common shares outstanding current,  adjusted common shares outstanding current, ticker symbol, and the market value for  members of the S&P 500 Index on a specific date in Xpressfeed
+This query returns the adjusted close price, common shares outstanding current,  adjusted common shares outstanding current, ticker symbol, and the market value for  members of the STOXX Index on a specific date in Xpressfeed
 
 ***********************************************************************************************/
 
@@ -40,31 +40,29 @@ begin
  DROP TABLE IF EXISTS tmp_table;
     CREATE TABLE tmp_table AS
 
-SELECT sec_dprc.gvkey 
-, sec_dprc.iid
-, spidx_cst.ticx
-, spidx_cst.conmx
-, sec_dprc.datadate
-, ( sec_dprc.prccd/sec_dprc.ajexdi ) AS adj_price
-, sec_dprc.cshoc , ( sec_dprc.cshoc*sec_dprc.ajexdi ) AS adj_shares
-, ( ( sec_dprc.prccd/sec_dprc.ajexdi ) * ( sec_dprc.cshoc*sec_dprc.ajexdi ) ) AS mkval 
+ SELECT sd.gvkey 
+, sd.iid
+,ii.tic
+,ii.indexid
+, sd.datadate
+, ( sd.prccd/sd.ajexdi ) AS adj_price
+, sd.cshoc , ( sd.cshoc*sd.ajexdi ) AS adj_shares
+, ( ( sd.prccd/sd.ajexdi ) * ( sd.cshoc*sd.ajexdi ) ) AS mkval 
 
-FROM sec_dprc 
-
-LEFT OUTER JOIN spidx_cst 
-
-ON spidx_cst.gvkey = sec_dprc.gvkey
-
-AND spidx_cst.iid = sec_dprc.iid 
-AND spidx_cst.datadate = sec_dprc.datadate 
-
-WHERE spidx_cst.indexid = '500' 
-
-AND sec_dprc.datadate = v500MembersThisDate 
+FROM sec_dprc sd
+ JOIN idxcst_his ih
+ON sd.gvkey=ih.gvkey
+ join idx_index ii
+on ii.gvkeyx=ih.gvkeyx
 
 
-ORDER BY sec_dprc.datadate, sec_dprc.gvkey;
+WHERE ii.indexid = 'STOXX'
+
+AND sd.datadate = v500MembersThisDate 
+
+
+ORDER BY sd.datadate, sd.gvkey;
 end $$;
 
-select * from temp_table        
+select * from tmp_table        
 

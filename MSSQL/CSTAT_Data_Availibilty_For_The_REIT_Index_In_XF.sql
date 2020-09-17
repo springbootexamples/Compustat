@@ -24,14 +24,14 @@ Query_Added_Date:
 DatasetKey:
 8
 
-This query  the data available the REIT Index in Xpresfeed
+The following sample query returns all the data available for the REIT Index in Xpresfeed
 
 ***********************************************************************************************/
 
 SELECT * 
 
-FROM spidx_cst 
+FROM idx_index
 
-WHERE indexid = 'reit' 
+WHERE indexid LIKE '%REIT%' 
 
-ORDER BY datadate 
+
