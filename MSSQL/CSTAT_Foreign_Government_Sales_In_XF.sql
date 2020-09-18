@@ -23,7 +23,7 @@ Query_Added_Date:
 DatasetKey:
 8
 
-This query returns GVKEYs where the Customer Name contains foreign g
+This query returns GVKEYs where the Customer Name contains foreign government (GOVFRN)
 
 ***********************************************************************************************/
 
