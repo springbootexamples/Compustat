@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Companies With Ommitted Or Suspended Dividends
+Returns Companies With Omitted Or Suspended Dividends
 
 Packages Required:
 Core
