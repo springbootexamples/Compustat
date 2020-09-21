@@ -54,6 +54,7 @@ SELECT company.conm
 
 
 FROM aco_transq a 
+------aco_transa (USE THIS TABLE FOR ANNUAL)
 
 
 LEFT OUTER JOIN dd_item b ON a.item = b.mnemonic
