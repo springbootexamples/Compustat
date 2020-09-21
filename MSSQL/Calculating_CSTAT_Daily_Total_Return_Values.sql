@@ -58,12 +58,12 @@ from company c
 JOIN security s on s.gvkey = c.gvkey
         and s.iid = c.priusa --Primary trading us security
 JOIN (
-        SELECTxa0
+        SELECT
         gvkey,
         datadate,
         iid,
         ROW_NUMBER () 
-        OVER ( PARTITION BY gvkey, iid ORDER BYxa0gvkey, iid, datadate ASC) AS rowNumber 
+        OVER ( PARTITION BY gvkey, iid ORDER BY gvkey, iid, datadate ASC) AS rowNumber 
         FROM sec_dprc
         WHERE 1 = 1 
         AND gvkey = @Gvkey 
@@ -76,7 +76,7 @@ JOIN (
         SELECT gvkey,
         datadate,
         iid,
-        ROW_NUMBER () OVER ( PARTITION BY gvkey, iid ORDER BYxa0gvkey, iid, datadate ASC) AS rowNumber
+        ROW_NUMBER () OVER ( PARTITION BY gvkey, iid ORDER BY gvkey, iid, datadate ASC) AS rowNumber
         FROM sec_dprc
         WHERE 1 = 1 
         AND gvkey = @Gvkey 
