@@ -31,7 +31,8 @@ Item ID (tradingItemId), and GVKEY.
 ***********************************************************************************************/
 
 DECLARE @date DATE = '2015-03-23'
-SELECT *FROM indexcst_his h
+SELECT cgi.gvkey,companyId,tradingItemId,securityId,tickerSymbol,ti.exchangeId 
+FROM indexcst_his h
 
 
 LEFT JOIN XFL_CIQ..company c ON c.gvkey = h.gvkey
