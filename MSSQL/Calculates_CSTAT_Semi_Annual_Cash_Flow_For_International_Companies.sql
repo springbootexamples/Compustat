@@ -1,5 +1,5 @@
 /***********************************************************************************************
-Returns Semi-Annual Cah Flow For International Companies
+Returns Semi-Annual Cash Flow For International Companies
 
 Packages Required:
 Core
