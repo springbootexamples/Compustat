@@ -25,7 +25,7 @@ DatasetKey:
 8
 
 The following sample query finds companies with merger or spin-off
-NOTE: The following tables can be queried in order to find companies with either mergers or spin-offs in Xpressfeed™:
+NOTE: The following tables can be queried in order to find companies with either mergers or spin-offs in Xpressfeed:
 For Mergers:table sec_mth item isalrt = PA or PM prior to 2000 or PA after 2000table sec_mthdiv item cheqvm is not null
 For Spin-offs:table sec_mth item isalrt is null and table sec_mthdiv item cheqvm is not null
 The data item Comparability Status Code (COMPST and COMPSTQ) can be used for North American Companies to identify 
