@@ -28,7 +28,7 @@ DatasetKey:
 
 The following sample query returns the Price Return and Total Return values for a company
 in Local Currency, British Pounds (GBP), U.S. Dollars (USD), and Euros (EUR) for a 
-specified period of time using the Compustat® database in Xpressfeed.
+specified period of time using the Compustat database in Xpressfeed.
 
 ***********************************************************************************************/
 
