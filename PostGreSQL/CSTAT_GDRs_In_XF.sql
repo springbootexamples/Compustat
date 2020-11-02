@@ -23,7 +23,7 @@ Query_Added_Date:
 DatasetKey:
 8
 
-This query finds Global Depositary Receipts (GDS) by searching the Issue Description  item (DSCI) for GDR and returns all items in the the security data table
+This query finds Global Depository Receipts (GDS) by searching the Issue Description  item (DSCI) for GDR and returns all items in the the security data table
 
 ***********************************************************************************************/
 
