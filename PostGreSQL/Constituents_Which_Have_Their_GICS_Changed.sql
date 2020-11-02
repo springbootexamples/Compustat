@@ -24,7 +24,7 @@ DatasetKey:
 100
 
 The following sample query returns constituents of the SP 1500 since June 30, 2015 
-that have had their Global Industry Classification Standard (GICS®) code changed prior 
+that have had their Global Industry Classification Standard (GICS) code changed prior 
 to quarter-end in Xpressfeed
 
 ***********************************************************************************************/
