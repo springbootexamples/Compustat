@@ -23,7 +23,7 @@ Query_Added_Date:
 DatasetKey:
 8
 
-This query calculates the frequency of dividends paid during a calender year in Xpressfeed
+This query calculates the frequency of dividends paid during a calendar year in Xpressfeed
 
 ***********************************************************************************************/
 
