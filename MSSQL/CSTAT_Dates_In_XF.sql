@@ -27,19 +27,19 @@ This query used to return a date for a specified period of time back from today.
 ***********************************************************************************************/
 
 -- 12 Months Ago: 
-SELECT ( DATEADD ( m,-12, GETDATE ( ) ) ) 
+SELECT ( DATEADD ( month,-12, GETDATE ( ) ) ) 
 
 --12 Days Ago: 
 SELECT( DATEADD ( d,-12, GETDATE ( ) ) ) 
 
 --12 Years Ago: 
-SELECT( DATEADD ( y,-12, GETDATE ( ) ) ) 
+SELECT( DATEADD ( year,-12, GETDATE ( ) ) ) 
 
 --12 Months in the Future:
-SELECT ( DATEADD ( m,12, GETDATE ( ) ) )  
+SELECT ( DATEADD ( month,12, GETDATE ( ) ) )  
 
 --9 Months Ago: a.datadate = 
-SELECT( DATEADD ( m,-9, GETDATE ( ) ) ) 
+SELECT( DATEADD ( month,-9, GETDATE ( ) ) ) 
 
 /***
 a.datadate = ( DATEADD ( year, -1, co_adesind.datadate ) )
