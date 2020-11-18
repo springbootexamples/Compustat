@@ -88,7 +88,7 @@ AND a.IMD_ITEM IN ( 'IDXNVSTDM', 'IDXNVGRSM', 'IDXNVNETM' ) -- index level types
 ORDER BY indexLevel 
 
 
-/****
+/*
 
 SELECT a.GVKEYX 
 
@@ -148,4 +148,4 @@ AND a.CURCDM = USD -- specify desired currency
 
 ORDER BY indexLevel 
 
-****/
+*/

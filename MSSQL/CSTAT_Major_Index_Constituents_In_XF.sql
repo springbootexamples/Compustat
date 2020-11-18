@@ -41,7 +41,7 @@ AND ( ic.thrudate IS NULL ) )
 
 ORDER BY c.conm 
 
-/***
+/*
 SELECT gvkey 
 , iid 
 , datadate 
@@ -77,5 +77,5 @@ WHERE ( sec_mth.spmim = '10' )  AND ( sec_mth.datadate = '1978-12-31' )
 OR ( sec_mth.spmim = '40' )  AND ( sec_mth.datadate = xa0 '1978-12-31' )  
 OR ( sec_mth.spmim = '49' )  AND ( sec_mth.datadate = xa0 '1978-12-31' )  
 OR ( sec_mth.spmim = '60' )  AND ( sec_mth.datadate = '1978-12-31'  ) 
-****/
+*/
 

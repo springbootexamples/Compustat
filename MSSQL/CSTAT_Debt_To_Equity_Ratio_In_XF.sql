@@ -60,7 +60,7 @@ AND a.datafmt = 'STD'
 AND a.datafmt = b.datafmt
 
 
-/**Quarterly: ((DLTTQ+DLCQ)/SEQQ)*100
+/*Quarterly: ((DLTTQ+DLCQ)/SEQQ)*100
 
 SELECT a.gvkey
 
@@ -87,5 +87,5 @@ WHERE a.gvkey = 006066
 
 AND a.datadate = 12/31/2007
 
-AND a.datafmt = std **/
+AND a.datafmt = std */
 

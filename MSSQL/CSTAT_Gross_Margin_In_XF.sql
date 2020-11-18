@@ -50,7 +50,7 @@ AND a.indfmt = b.indfmt
 AND a.gvkey = '006066'
 AND a.datadate = '12/31/2017'
 
-/******This query calculates Gross Margin on a Quarterly basis in the Compustat database:
+/*This query calculates Gross Margin on a Quarterly basis in the Compustat database:
 
 
 SELECT a.gvkey
@@ -66,4 +66,4 @@ AND a.datadate = b.datadate
 AND a.datafmt = b.datafmt
 AND a.indfmt = b.indfmt
 AND a.gvkey = '147579'
-AND a.datadate = '06/30/2018'*******/
+AND a.datadate = '06/30/2018' */

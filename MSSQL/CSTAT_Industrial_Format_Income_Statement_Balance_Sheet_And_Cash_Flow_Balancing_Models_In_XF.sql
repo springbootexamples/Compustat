@@ -322,7 +322,8 @@ ORDER BY c.conml
 
 
 
-/***********
+/*
+
 SELECT c.conml
 
 , ca.curcd
@@ -763,5 +764,5 @@ ORDER BY c.conml
 
 , caf1.datadate DESC 
 
-****/
+*/
 

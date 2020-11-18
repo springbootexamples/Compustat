@@ -42,7 +42,7 @@ WHERE company.conm LIKE '%LP'
 ORDER BY company.gvkey 
 
 
-/**
+/*
 SELECT security.gvkey 
 
 
@@ -56,4 +56,4 @@ FROM security security
 WHERE security.dsci LIKE %LP% 
 
 ORDER BY security.gvkey 
-**/
+*/
