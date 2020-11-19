@@ -44,7 +44,8 @@ ORDER BY company.conm
 
 ---Using GICS:
 
-/**
+/*
+
 SELECT company.gvkey 
 , company.conm
 , company.gsubind
@@ -57,4 +58,5 @@ WHERE company.gind = '601010'
 AND company.gsubind = r_giccd.giccd 
 
 ORDER BY company.conm 
-**/
+
+*/

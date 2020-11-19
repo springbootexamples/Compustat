@@ -67,7 +67,7 @@ AND s.stype = 'BUSSEG'
 
 ORDER BY sales DESC
 
-/*****
+/*
 
 SELECT s.srcdate
 
@@ -111,4 +111,4 @@ AND s.stype = 'BUSSEG'
 
 ORDER BY sales DESC
 
-*****/
+*/

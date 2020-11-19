@@ -94,7 +94,7 @@ AND ca.datadate = '12/31/2009'
 ORDER BY c.conml, caf1.popsrc, caf1.datadate DESC
 
 
-/*****
+/*
 
 SELECT c.conml
 
@@ -179,4 +179,4 @@ AND ca.datadate = '12/31/2006'
 
 ORDER BY c.conml, caf1.popsrc, caf1.datadate DESC
 
-*****/
+*/

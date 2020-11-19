@@ -40,7 +40,7 @@ GROUP BY popsrc
 , datafmt, indfmt
 
 
-/*****
+/*
 SELECT COUNT(*) AS # of securities 
 
 
@@ -48,4 +48,4 @@ SELECT COUNT(*) AS # of securities
 
 
 FROM sec_dprcGROUP BY datadateORDER BY datadate DESC
-*****/
+*/
