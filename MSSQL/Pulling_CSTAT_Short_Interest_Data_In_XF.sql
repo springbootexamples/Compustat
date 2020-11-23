@@ -38,7 +38,7 @@ SELECT
         a.datadate,
         e.exchgdesc,
         e.exchgcd
-FROM sec_shortint axa0
+FROM sec_shortint a
 JOIN sec_idhist b ON b.gvkey = a.gvkey
         AND b.iid = a.iid
         AND a.datadate Between b.efffrom AND isnull(b.effthru,'2050-01-01')
