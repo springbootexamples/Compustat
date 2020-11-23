@@ -32,7 +32,7 @@ Query_Added_Date:
 DatasetKey:
 8
 
-This query  returns an Industrial Balance Sheet for companies from Korea
+This query returns an Industrial Balance Sheet for companies from Korea
 
 ***********************************************************************************************/
 
